@@ -6,12 +6,12 @@
 
 *En este marco podemos entender que el uso de internet puede ser positivo o negativo según su uso, en esta ocasión analizamos un tema bastante explorado pero poco desarrollado a nivel producto: la necesidad de los padres de contar con información importante, exclusiva y de primera mano acerca del cuidado de sus hijos. A través de investigación cualitativa y cuantitativa a madres y padres se encontró que (%) acuden primero a Internet desde sus móviles para buscar información de diversos temas como recomendaciones de pediatras, colegios o simplemente la comida que deben comer sus hijos de acuerdo a su edad.*
 
-*Por ejemplo un estudio realizado por Google/Ipsos llamado “Vínculo emocional de los latinoamericanos con YouTube”, señaló que* ***un 55% de padres piensan que Youtube les permite conocer mejor el mundo de sus hijos y que 6 de cada 10 padres acuden a Youtube para aprender cómo hacer algo, además el mismo Youtube menciona que ha aumentado la búsqueda en la categoría 'bebés'*** *como se muestra a continuación:*
+*Por ejemplo, un estudio realizado por Google/Ipsos llamado “Vínculo emocional de los latinoamericanos con YouTube”, señaló que* ***un 55% de padres piensan que Youtube les permite conocer mejor el mundo de sus hijos y que 6 de cada 10 padres acuden a Youtube para aprender cómo hacer algo, además el mismo Youtube menciona que ha aumentado la búsqueda en la categoría 'bebés'*** *como se muestra a continuación:*
 
 ![img1](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/stadyoutube.jpg)
 
 
-*Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo.*
+*Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo. En Perú encontramos comunidades como "Bloguerhood, Mamás blogueras peruanas, Househelp-datos para compartir, Buscando empleadas y nanas de confianza Perú", entre otros*
 
 ## PARENTHOOK 👨🧒👧👩
 
