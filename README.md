@@ -15,45 +15,38 @@
 
 ## PARENTHOOK 👨🧒👧👩
 
-*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellos compartiendo información de primera mano o boca a boca, la cual consideramos la más práctica, confiable y efectiva que pueda haber. Alguno de los temas y ejemplos  a tocar son:*
+*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellos compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
 
 1. SALUD 💉
 
 
-   recomendaciones de pediatras en hospital/clínica X
-
-   cómo bajo una fiebre de forma casera?
-   
-   dónde puedo conseguir el medicamento X ?
+   * recomendaciones de pediatras en hospital/clínica X
+   * cómo bajo una fiebre de forma casera?
+   * dónde puedo conseguir el medicamento X ?
 
 2. PERSONAL DE APOYO EN CASA 🧤
 
 
-   alguien que sepa de una nana disponible?
-
-   tengo el dato de una sra. que desea trabajar en limpieza en casa
+   * alguien que sepa de una nana disponible?
+   * tengo el dato de una sra. que desea trabajar en limpieza en casa
 
 3. EDUCACIÓN ✏
 
 
-   qué tal es el colegio X, precios?
-
-   dónde consigo el libro X que me pidieron?
+   * qué tal es el colegio X, precios?
+   * dónde consigo el libro X que me pidieron?
 
 4. ALIMENTACIÓN 🍗
 
 
-   alguien sabe si puedo reemplazar miel por panela?
-
-   qué pasa si le doy golosina a mis hijxs?
+   * alguien sabe si puedo reemplazar miel por panela?
+   * qué pasa si le doy golosina a mis hijxs?
 
 5. CRIANZA 💗
 
 
-   cómo hago para que mi hijx quiera dormir en su cama?
-
-
-   cómo se le castiga a un niño de 5 años?    
+   * cómo hago para que mi hijx quiera dormir en su cama?
+   * cómo se le castiga a un niño de 5 años?    
 
 
 ## Acerca de los usuarixs 🤰🤱👫👬👭
@@ -62,7 +55,7 @@
 
 ## Objetivo 📌
 
-*El objetivo de Parenthook es ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.*
+*El objetivo de Parenthook es* ***ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.***
 
 
 ### UX
@@ -106,6 +99,8 @@ diseño visual de tu preferencia.
 PROTOTIPO BAJA
 
 ![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
+
+
 
 PROTOTIPO ALTA
 
