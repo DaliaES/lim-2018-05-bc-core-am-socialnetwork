@@ -22,19 +22,35 @@ IMAGEN-------------------------------------------
    dónde puedo conseguir el medicamento X ?
 
 2. PERSONAL DE APOYO EN CASA 🧤
+
+
    alguien que sepa de una nana disponible?
+
+
    tengo el dato de una sra. que desea trabajar en limpieza en casa
 
 3. EDUCACIÓN ✏
+
+
    qué tal es el colegio X, precios?
+
+
    dónde consigo el libro X que me pidieron?
 
 4. ALIMENTACIÓN 🍗
+
+
    alguien sabe si puedo reemplazar miel por panela?
+
+
    qué pasa si le doy golosina a mis hijxs?
 
 5. CRIANZA 💗
+
+
    cómo hago para que mi hijx quiera dormir en su cama?
+
+   
    cómo se le castiga a un niño de 5 años?    
 
 
