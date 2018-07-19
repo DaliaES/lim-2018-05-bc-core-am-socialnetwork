@@ -8,7 +8,7 @@
 
 *Por ejemplo un estudio realizado por Google/Ipsos llamado “Vínculo emocional de los latinoamericanos con YouTube”, señaló que un 55% de padres piensan que Youtube les permite conocer mejor el mundo de sus hijos y que 6 de cada 10 padres acuden a Youtube para aprender cómo hacer algo, además el mismo Youtube menciona que ha aumentado la búsqueda en la categoría 'bebés'como se muestra a continuación:*
 
-IMAGEN-------------------------------------------
+https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/stadyoutube.jpg
 
 *Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo.*
 
@@ -102,6 +102,10 @@ esta red social que siga este flujo. Para esto debes utilizar la herramienta de
 diseño visual de tu preferencia.
 
 PROTOTIPO BAJA
+
+https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg
+
+
 PROTOTIPO ALTA
 
 #### 3) Implementación de la Interfaz de Usuario
