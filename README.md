@@ -58,57 +58,20 @@
 *El objetivo de Parenthook es* ***ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.***
 
 
-### UX
-
-Desde el punto de vista de UX, deberás:  
-
-* Hacer un _benchmark_ de las principales redes sociales.
-* Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un prototipo de alta fidelidad.
-* Testear el prototipo con usuarios.
-* Asegurarte de que la implementación en código siga los lineamientos del
-  diseño.
-* Hacer sesiones de testing con el producto en HTML.
+## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
 
-### Entregables
-
-#### 1) Definición del producto
-
-En el `README.md` debes colocar cómo conociste el mercado de las redes sociales, cómo descubriste las necesidades de los usuarios, y cómo llegaste a la definición final de tu producto. Si tienes fotos de entrevistas, cuestionarios y/o sketches
-(bocetos) compártelos. Es importante que detalles:
-
-* Cuáles son los elementos básicos que tiene una red social.-
-* Quiénes son los principales usuarios de producto.
-* Cómo descubriste las necesidades de los usuarios.
-* Qué problema resuelve el producto para estos usuarios.
-* Cuáles son los objetivos de estos usuarios en relación con el producto.
-* Cuáles son las principales funcionalidades del producto y cuál es su prioridad.-
-* Cómo verificaste que el producto les está resolviendo sus problemas.-
-* Cómo te asegurarás que estos usuarios usen este producto.-
-
-Para poder llegar a estas definiciones te recomendamos revisar: benchmarks, entrevistas con usuarios y tests de usabilidad.
-
-#### 2) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
-
-Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y
-con eso deberás diseñar la Interfaz de Usuario (UI - por sus siglas en inglés) de
-esta red social que siga este flujo. Para esto debes utilizar la herramienta de
-diseño visual de tu preferencia.
-
-PROTOTIPO BAJA
+PROTOTIPO DE BAJA FIDELIDAD
 
 ![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
 
 
+PROTOTIPO DE ALTA FIDELIDAD 
 
-PROTOTIPO ALTA
+![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/1-Login-1.png)
 
-#### 3) Implementación de la Interfaz de Usuario
 
-La idea para este proyecto es que el producto a desarrollar siga los
-lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo
-largo de la implementación que los elementos propuestos están siendo
-implementados correctamente. (Hint: testing)
+![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
 
-#
+
+
