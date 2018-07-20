@@ -60,6 +60,8 @@
 
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
+*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles.*
+
 
 PROTOTIPO DE BAJA FIDELIDAD
 
@@ -73,5 +75,19 @@ PROTOTIPO DE ALTA FIDELIDAD
 
 ![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
 
+
+LOGO
+
+![img7](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/logo.png)
+
+##Organización del equipo de trabajo
+
+TRELLO
+
+![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png)
+
+PRODUCT BACKLOG
+
+![img6](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/backlog.jpg)
 
 
