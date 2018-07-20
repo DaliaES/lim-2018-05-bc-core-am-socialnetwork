@@ -1,11 +1,14 @@
+.menu-nav{
+    background-color: #d2a679;
+}
+.home{
+    background-color:#ffefcc;
+}
+.login{
+   background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .textarea {
     width: 20%;
-}
-
-.body {
-    background: #eece92;
-}
-
-.nav {
-    background: #ffffff;
 }
