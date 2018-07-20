@@ -4,6 +4,7 @@
 .home{
     background-color:#ffefcc;
 }
-/* .login{
-    background-color:#ffefcc;
-} */
+.login{
+   background-repeat: no-repeat;
+  background-size: 100%;
+}
