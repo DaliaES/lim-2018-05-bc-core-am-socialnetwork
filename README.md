@@ -1,4 +1,4 @@
-<p align = "center">![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/logoparenthookchico.png)</p>
+<p align = "center"><img src="https://image.ibb.co/fuyVry/logoparenthookchico.png" alt="logoparenthookchico" border="0"></p>
 
 # PARENTHOOK 🧡
 
