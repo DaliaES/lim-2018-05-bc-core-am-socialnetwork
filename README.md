@@ -1,4 +1,4 @@
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/logoparenthookchico.png)
+<p align = "center">![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/logoparenthookchico.png)</p>
 
 # PARENTHOOK 🧡
 
