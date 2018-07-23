@@ -70,9 +70,6 @@ PROTOTIPO DE BAJA FIDELIDAD
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
-![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/1-Login-1.png)
-
-
 ![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
 
 
