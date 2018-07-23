@@ -1,5 +1,4 @@
 <p align = "center"><img src="https://image.ibb.co/fuyVry/logoparenthookchico.png" alt="logoparenthookchico" border="0"></p>
-🧡
 ## Introducción 👋
 
 *Hoy en día el mundo digital se ha inmortalizado en nuestras vidas, tanto así que a la primera fuente que recurrimos cada vez que tenemos una duda es Internet, interactuamos en redes sociales todo el tiempo, compartimos todo lo que nos pasa (o lo que nos va pasar). Resolvemos dudas, hacemos preguntas, debatimos y hasta encontramos a la media naranja en una red social.*
