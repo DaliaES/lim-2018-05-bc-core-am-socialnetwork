@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Parenthook</title>
+  <link rel="icon" type="image/x-icon" href="https://preview.ibb.co/ny2zuJ/logoparenthook.png">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
@@ -14,21 +15,34 @@
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </head>
 
-<body>
-  <form id= "signup-form">
+<body class="back-img">
+  <form class="login-form" id="signup-form">
     <div>
-      <label for="id-name">Nombre</label>
-      <input type="text" id= "id-name">
+      <div>
+          <i class="material-icons  log-icon">perm_identity</i>
+        <label class="text-size" for="id-name">Nombre</label>
+      </div>
+
+      <input type="text" id="id-name">
     </div>
     <div>
-        <label for="email-sign">Email</label>
-        <input type="email" id="email-sign">
-      </div>
       <div>
-        <label for="password-sign">Contraseña</label>
-        <input type="password" id="password-sign">
+        <i class="material-icons  log-icon">email</i>
+        <label class="text-size" for="email-sign">Email</label>
       </div>
-    <input type="button" id="btn-signup" value="Registrarme">
+      <input type="email" id="email-sign">
+    </div>
+    <div>
+      <div>
+        <i class="material-icons log-icon">lock</i>
+        <label class="text-size" for="password-sign">Contraseña</label>
+      </div>
+
+      <input type="password" id="password-sign">
+    </div>
+    <div class="btn-container">
+      <a class="waves-effect waves-light btn-small btn-style" id="btn-signup">Registrarme</a>
+    </div>
   </form>
   <p id="btn-login"></p>
   <p id="go-signup"></p>
