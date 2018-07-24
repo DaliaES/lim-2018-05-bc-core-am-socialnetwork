@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ParentHook</title>
+  <link rel="icon" type="image/x-icon" href="https://preview.ibb.co/ny2zuJ/logoparenthook.png">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
@@ -14,49 +15,55 @@
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </head>
 
-<body class = "home" >
-  <nav class= "menu-nav">
- <h1>ParentHook</h1>
-  </nav>
-  <ul id="slide-out" class="sidenav">
-    <li>
-      <div class="user-view">
-        <div class="background">
-          <img src="">
+<body class="home">
+  <div class="container-logo">
+    <a href="#" data-target="slide-out" class="sidenav-trigger">
+      <i class="material-icons  menu-icon">menu</i>
+    </a>
+    <img class="logo" src="https://preview.ibb.co/j17C4J/logoparenthook.png">
+  </div>
+  <div>
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="">
+          </div>
+          <a href="#user">
+            <img class="circle" src=""> </a>
+          <a href="#name">
+            <span class="black-text name" id="user-name"></span>
+          </a>
+          <a href="#email">
+            <span class="black-text email" id="user-email"></span>
+          </a>
         </div>
-        <a href="#user">
-          <img class="circle" src=""> </a>
-        <a href="#name">
-          <span class="black-text name" id="user-name"></span>
-        </a>
-        <a href="#email">
-          <span class="black-text email" id= "user-email"></span>
-        </a>
-      </div>
-    </li>
-    <li>
-      <a href="#!">
-        <i class="material-icons">cloud</i>Fotos</a>
-    </li>
-    <li>
-      <a href="#!">Amigos</a>
-    </li>
-    <li>
-      <div class="divider"></div>
-    </li>
-    <li>
-      <a class="subheader">Privacidad</a>
-    </li>
-    <li>
-      <a class="waves-effect" id="btn-logout" >Cerrar Sesión</a>
-    </li>
-  </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger">
-    <i class="material-icons">menu</i>
-  </a>
-  <br>
-  <textarea class="textarea" rows="10" cols="50">Qué está pasando?</textarea>
+      </li>
+      <li>
+        <a href="#!">
+          <i class="material-icons">cloud</i>Fotos</a>
+      </li>
+      <li>
+        <a href="#!">Amigos</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="subheader">Privacidad</a>
+      </li>
+      <li>
+        <a class="waves-effect" id="btn-logout">Cerrar Sesión</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <input type="search" value="Buscar">
+  </div>
+  <div>
+  <textarea class="textarea" >Qué estás pensando?</textarea>
   <button>Publicar</button>
+</div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>

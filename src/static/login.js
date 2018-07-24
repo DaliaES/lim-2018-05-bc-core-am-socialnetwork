@@ -76,10 +76,8 @@ btnFacebook.addEventListener('click',e=>{
   firebase.auth().signInWithPopup(provider)
   .then(function(result) {
     window.location.href = 'main.html'
-console.log('log');
-
   }).catch(function(error) {
-console.log('error');
+    alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista')
 
   });
 })
