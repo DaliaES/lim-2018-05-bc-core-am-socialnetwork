@@ -1,4 +1,4 @@
-# PARENTHOOK 🧡
+<p align = "center"><img src="https://image.ibb.co/fuyVry/logoparenthookchico.png" alt="logoparenthookchico" border="0"></p>
 
 ## Introducción 👋
 
@@ -66,16 +66,12 @@
 PROTOTIPO DE BAJA FIDELIDAD
 
 ![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
+![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/baja2.jpg)
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
 ![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
-
-
-LOGO
-
-![img7](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/logo.png)
 
 
 ## Organización del equipo de trabajo ↗
