@@ -16,36 +16,36 @@
 </head>
 
 <body class="back-img">
-  <form class="login-form" id="signup-form">
+  <form  id="signup-form" class="style-form">
     <div>
       <div>
           <i class="material-icons  log-icon">perm_identity</i>
-        <label class="text-size" for="id-name">Nombre</label>
+        <label class="text-label" for="id-name">Nombre</label>
       </div>
-
-      <input type="text" id="id-name">
+      <input type="text" id="id-name" class="text-input">
     </div>
     <div>
       <div>
         <i class="material-icons  log-icon">email</i>
-        <label class="text-size" for="email-sign">Email</label>
+        <label class="text-label" for="email-sign">Email</label>
       </div>
-      <input type="email" id="email-sign">
+      <input type="email" id="email-sign" class="text-input">
     </div>
     <div>
       <div>
         <i class="material-icons log-icon">lock</i>
-        <label class="text-size" for="password-sign">Contraseña</label>
+        <label class="text-label" for="password-sign">Contraseña</label>
       </div>
-
-      <input type="password" id="password-sign">
+      <input type="password" id="password-sign" class="text-input">
     </div>
     <div class="btn-container">
       <a class="waves-effect waves-light btn-small btn-style" id="btn-signup">Registrarme</a>
     </div>
   </form>
+  <div class="error-label">
   <p id="btn-login"></p>
   <p id="go-signup"></p>
+</div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>

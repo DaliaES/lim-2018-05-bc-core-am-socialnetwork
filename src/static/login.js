@@ -13,7 +13,6 @@ window.onload = () => {
       let userEmail = user.email
       document.getElementById("user-name").innerHTML = userName;
       document.getElementById("user-email").innerHTML = userEmail;
-      console.log(user)
     } else {
       console.log('no esta logueado')
     }
@@ -67,7 +66,9 @@ btnGoogle.addEventListener('click', e => {
     }).catch(error => {
       alert('Hubo un error al Conectar')
     });
+
 })
+
 btnFacebook.addEventListener('click',e=>{
   const provider = new firebase.auth.FacebookAuthProvider();
   provider.setCustomParameters({
@@ -82,12 +83,11 @@ btnFacebook.addEventListener('click',e=>{
   });
 })
 btnLogout.addEventListener('click', e => {
-  console.log('cerro sesion')
-  // firebase.auth().signOut()
-  //   .then(function () {
-  //     console.log('cerro sesion')
-  //   }).catch(function (error) {
-  //     console.log('hubo un error')
-  //   });
+  firebase.auth().signOut()
+    .then(function () {
+      window.location.href = 'index.html'
+    }).catch(function (error) {
+      console.log('hubo un error')
+    });
 
 })

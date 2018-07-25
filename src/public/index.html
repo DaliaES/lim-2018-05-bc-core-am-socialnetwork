@@ -16,31 +16,34 @@
 </head>
 
 <body class="back-img">
-  <form class="login-form" id="login-form">
+  <form class="style-form" id="login-form">
     <div>
       <div>
         <i class="material-icons  log-icon">email</i>
-        <label for="email-log" class="text-size">Email</label>
+        <label for="email-log" class="text-label">Email</label>
       </div>
-      <input type="email" id="email-log">
+      <input type="email" id="email-log" class="text-input">
     </div>
     <div>
       <div>
-        <i class="material-icons md-light log-icon">lock</i>
-        <label for="password-log" class="text-size">Contraseña</label>
+        <i class="material-icons log-icon">lock</i>
+        <label for="password-log" class="text-label">Contraseña</label>
       </div>
-      <input type="password" id="password-log">
+      <input type="password" id="password-log" class="text-input">
     </div>
     <div class="btn-container">
       <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>
     </div>
+    <a id="go-signup">Registrate Ahora</a>
+    <div>
+      <p id="btn-facebook">Facebook</p>
+      <a id="btn-google" class="waves-effect waves-light btn social google">
+        <i class="fa fa-google"></i> Sign in with Google</a>
+    </div>
   </form>
-  <a href="#" id="go-signup">Registrate Ahora</a>
-  <a href="#" id="btn-google">Continuar con Google</a>
-  <a href="#" id="btn-facebook">Continuar con Facebook</a>
-
-
-
+  <div class="error-label">
+    <ul id="btn-signup"></ul>
+  </div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>
