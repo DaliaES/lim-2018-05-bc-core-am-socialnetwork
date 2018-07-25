@@ -14,16 +14,15 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </head>
-
 <body class="home">
-  <div class="container-logo">
-    <a href="#" data-target="slide-out" class="sidenav-trigger">
+  <nav class="container-logo">
+    <a href="#" data-target="slide-out" class="sidenav-trigger ">
       <i class="material-icons  menu-icon">menu</i>
     </a>
-    <img class="logo" src="https://preview.ibb.co/j17C4J/logoparenthook.png">
-  </div>
+    <img class="logo" src="https://image.ibb.co/ncOZ68/logomod2.png">
+  </nav>
   <div>
-    <ul id="slide-out" class="sidenav">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
       <li>
         <div class="user-view">
           <div class="background">
@@ -63,6 +62,13 @@
   <div>
   <textarea class="textarea" >Qué estás pensando?</textarea>
   <button>Publicar</button>
+</div>
+<div class="error-label">
+<p id="btn-login"></p>
+<p id="go-signup"></p>
+<p id="btn-signup"></p>
+<p id="btn-google"></p>
+<p id="btn-facebook"></p>
 </div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
