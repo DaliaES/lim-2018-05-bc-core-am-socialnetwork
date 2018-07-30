@@ -7,7 +7,12 @@
 .style-form{
   width:80%;
   margin: auto;
-  padding-top: 80%;
+  padding-top: 60%;
+}
+.log-icon{
+  color: rgba(255, 255, 255, 0.774);
+  float:left;
+  margin-right: 3%;
 }
 .text-label{
   font-size: 15px;
@@ -20,13 +25,8 @@
   font-weight: lighter;
   letter-spacing: 0.07em;
 }
-.log-icon{
-  color: rgba(255, 255, 255, 0.774);
-  float:left;
-  margin-right: 3%;
-}
 .btn-container{
-  padding-top: 8%; 
+  padding-top: 10%; 
 }
 .btn-style{
   color: #331a00;
@@ -42,6 +42,28 @@
   display: block;
   margin:auto;
 }
+/* Registro con google y facebook */
+.text-container{
+  color: rgb(25, 233, 233);
+  /* font-weight: lighter; */
+  font-size: 130%;
+  padding-top: 5%;
+  text-align: center;
+  list-style: none;
+  letter-spacing: 0.04em;
+}
+.container-social-btn{
+  padding-top: 8%;
+  text-align: center;
+}
+.btn-facebook{
+ background-color: #3b5999;
+ margin-right: 2%;
+}
+.btn-google{
+ background-color: #dd4b39;
+ margin-left: 2%;
+}
 .btn-style:hover{
   background-color: #996600;
   transition-duration: 0.4s;
@@ -49,7 +71,7 @@
 }
 /* Pagina home */
 .home{
-  background-color:#ffefcc;
+  background-color:#F3D6AB;
 }
 .logo{
   width: 27%;
@@ -84,11 +106,27 @@
 .error-label{
   display: none;
 }
-header, main, footer {
-  padding-left: 300px;
+i.material-icons.prefix.icon-user{
+  font-size: 500%;
+  line-height: 0.6;
+  margin-left: 4%;
 }
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
+.container-text{
+  margin-left: 25%;
+  width: 70%;
+}
+textarea.materialize-textarea {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding-left: 5%;
+  height: 55px;  
+}
+.post-action{
+  float: right;
+}
+/* menu desplegable */
+.user-pic{
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

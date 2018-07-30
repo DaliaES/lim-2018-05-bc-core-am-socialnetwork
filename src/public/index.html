@@ -10,6 +10,7 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link type="text/css" rel="stylesheet" href="../static/framework/css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
@@ -34,11 +35,15 @@
     <div class="btn-container">
       <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>
     </div>
-    <a id="go-signup">Registrate Ahora</a>
-    <div>
-      <p id="btn-facebook">Facebook</p>
-      <a id="btn-google" class="waves-effect waves-light btn social google">
-        <i class="fa fa-google"></i> Sign in with Google</a>
+    <div class="text-container">
+      <li id="go-signup"> Registrate Ahora o</li>
+      <li>Inicia con</li>
+    </div>
+    <div class="container-social-btn">
+      <a id="btn-facebook" class="waves-effect waves-light btn social facebook btn-facebook">
+        <i class="fa fa-facebook"></i> Facebook</a>
+      <a id="btn-google" class="waves-effect waves-light btn social google btn-google">
+        <i class="fa fa-google"></i> Google</a>
     </div>
   </form>
   <div class="error-label">
