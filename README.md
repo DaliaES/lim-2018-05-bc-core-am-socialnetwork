@@ -60,18 +60,22 @@
 
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
-*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles.*
+*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles. La paleta de colores con la que se trabajó fue en su mayoría de colores tierra:*
+
+PALETA DE COLORES
+
+![img10]()
 
 
 PROTOTIPO DE BAJA FIDELIDAD
 
-![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
+![img2]()
 ![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/baja2.jpg)
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
+![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/wall.png)
 
 
 ## Organización del equipo de trabajo ↗
@@ -93,4 +97,4 @@ RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
 
 ![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png)
 
-![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
+![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
