@@ -13,6 +13,15 @@
 
 *Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo. En Perú encontramos comunidades como "Bloguerhood, Mamás blogueras peruanas, Househelp-datos para compartir, Buscando empleadas y nanas de confianza Perú", entre otros*
 
+![im11](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png)
+
+![im12](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png)
+
+![im13](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtags.png)
+
+![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
+
+
 ## PARENTHOOK 👨🧒👧👩
 
 *Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellos compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
@@ -64,12 +73,12 @@
 
 PALETA DE COLORES
 
-![img10]()
+![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png)
 
 
 PROTOTIPO DE BAJA FIDELIDAD
 
-![img2]()
+![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
 ![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/baja2.jpg)
 
 
