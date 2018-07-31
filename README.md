@@ -104,13 +104,13 @@ RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
 
 ![img8](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png)
 
-![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png)
+![img9]()
 
 ![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
 
 RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS 
 
-Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años y se puede concluir que:
+Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años, se puede concluir que:
 
 * el 75% de las madres entrevistadas recurre a internet cuando tienen alguna duda acerca de las categorías mencionadas respecto a sus hijxs.
 * el 100% de las madres comparte datos con otros padres y les gusta encontrar información de otros padres online.
