@@ -15,9 +15,9 @@
 
 ![im11](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png)
 
-![im12](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png)
+![im12]()
 
-![im13](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtags.png)
+![im13]()
 
 ![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
 
@@ -73,7 +73,7 @@
 
 PALETA DE COLORES
 
-![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png)
+![img10]()
 
 
 PROTOTIPO DE BAJA FIDELIDAD
@@ -84,9 +84,7 @@ PROTOTIPO DE BAJA FIDELIDAD
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
-
-![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/wall.png)
+![img4]()
 
 
 ## Organización del equipo de trabajo ↗
