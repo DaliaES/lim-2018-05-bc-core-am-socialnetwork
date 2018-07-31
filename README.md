@@ -66,6 +66,10 @@
 
 *El objetivo de Parenthook es* ***ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.***
 
+***Para lograr este objetivo, se descubrió a través de un sondeo de las principales redes sociales y comunidades que, por tratarse de información sensible, su acceso debe ser restringido al público objetivo; es decir, lxs usuarixs que interactuarán serán sólo personas que tengan niñxs.*** __Esta implementación será a mediano o largo plazo__ ***ya que nuestra recomendación es que durante un periodo sea abierto al público para ganar seguidores e interactúen con la plataforma.***
+
+***La implementación de restricción se dará mediante un filtrado de datos.***
+
 
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
@@ -102,9 +106,11 @@ PRODUCT BACKLOG
 
 RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
 
+Muestra = 10
+
 ![img8](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png)
 
-![img9]()
+![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png)
 
 ![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
 
@@ -117,6 +123,5 @@ Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años, se puede conclu
 * el 25% de las madres entrevistadas prefiere recurrir a otras fuentes como la OMS, UNICEF, entre otros.
 * el 80% cree que otro papá o mamá puede dar mejores consejos que uno que no lo es.
 * el 50% toma decisiones de acuerdo a la información encontrada en comunidades o foros.
-
 
 [AUDIOS DE ENTREVISTAS AQUÍ](https://drive.google.com/open?id=14-U-brk3cKIHu3FaF_tfrJ5wTddGhY5x)
