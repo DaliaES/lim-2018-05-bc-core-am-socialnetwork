@@ -24,7 +24,7 @@
 
 ## PARENTHOOK 👨🧒👧👩
 
-*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellos compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
+*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellxs compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
 
 1. SALUD 💉
 
@@ -66,14 +66,14 @@
 
 *El objetivo de Parenthook es* ***ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.***
 
-***Para lograr este objetivo, se descubrió a través de un sondeo de las principales redes sociales y comunidades que, por tratarse de información sensible, su acceso debe ser restringido al público objetivo; es decir, lxs usuarixs que interactuarán serán sólo personas que tengan niñxs.*** __Esta implementación será a mediano o largo plazo__ ***ya que nuestra recomendación es que durante un periodo sea abierto al público para ganar seguidores e interactúen con la plataforma.***
+***Para lograr este objetivo, se descubrió a través de un sondeo de las principales redes sociales y comunidades que, por tratarse de información sensible, su acceso debe ser restringido al público objetivo; es decir, lxs usuarixs que interactuarán serán sólo personas que tengan niñxs.*** __Esta implementación será a mediano o largo plazo__ ***ya que nuestra recomendación es que durante un periodo inicial sea abierto al público para ganar seguidores e interactúen con la plataforma.***
 
-***La implementación de restricción se dará mediante un filtrado de datos.***
+*La implementación de restricción se dará mediante un filtrado de datos.*
 
 
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
-*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles. La paleta de colores con la que se trabajó fue en su mayoría de colores tierra:*
+*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles. La paleta de colores con la que se trabajó fue en su mayoría de colores tierra.*
 
 PALETA DE COLORES
 
