@@ -71,13 +71,13 @@
 }
 /* Pagina home */
 .home{
-  background-color:#F3D6AB;
+  background-color:#FFE9C8;
 }
 .logo{
-  width: 27%;
+  width: 24%;
   height: 100%;
   display: block;
-  margin-left: 36%;
+  margin-left: 70%;
 }
 .container-logo{
   background-color: white;
