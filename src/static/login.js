@@ -9,32 +9,52 @@ let userConect = null;
 window.onload = () => {
   firebase.auth().onAuthStateChanged(user => {
     let name = document.getElementById("user-name")
-    let email= document.getElementById("user-email")
-    let picProfile= document.getElementById("user-pic")
+    let email = document.getElementById("user-email")
+    let picProfile = document.getElementById("user-pic")
     if (user) {
       let userName = user.displayName
       let userEmail = user.email
       let userPic = user.photoURL
       name.innerHTML = userName;
       email.innerHTML = userEmail;
-      if (userPic){
-        picProfile.style.backgroundImage = "url("+userPic+")";
-      }else{
+      if (userPic) {
+        picProfile.style.backgroundImage = "url(" + userPic + ")";
+      } else {
         picProfile.style.backgroundImage = "url(https://image.ibb.co/h7ehKT/baseline_account_circle_black_48dp.png)";
       }
-      addUserDataB(user.uid,user.displayName, user.email, user.photoURL)
+      addUserDataB(user.uid, user.displayName, user.email, user.photoURL)
     } else {
       console.log('no esta logueado')
     }
   });
+  timelinePost()
+};
+const timelinePost =()=>{
+  const postContainer = document.getElementById("post-container")
+  firebase.database().ref('posts')
+  .on('child_added',(createdPost)=>{
+    postContainer.innerHTML +=`
+    <div class="input-field">
+    <p><i class="material-icons prefix">account_circle</i>
+    ${createdPost.val().name}</p>
+  </div>
+  <div class="post-user">
+  <p>${createdPost.val().post}</p>
+    <div class="post-options">
+      <i class="material-icons prefix">thumb_up</i>
+      <button>Comentar</button>
+    </div>
+  </div>
+    `
+  })
 }
 // guardando en base de datos
-let addUserDataB =(id,name,email,photo)=>{
-  let addedUser = database.ref("/user"+ id).set({
-    uid:id,
-    username:name,
-    email:email,
-    profileimage:photo
+let addUserDataB = (id, name, email, photo) => {
+  let addedUser = database.ref("/users/" + id).set({
+    uid: id,
+    username: name,
+    email: email,
+    profileimage: photo
   });
 }
 // agregar evento de login
@@ -51,8 +71,7 @@ signUpForm.addEventListener('click', e => window.location.href = 'signup.html')
 btnSignUp.addEventListener('click', e => {
   const email = document.getElementById("email-sign").value;
   const pass = document.getElementById("password-sign").value;
-  const name = document.getElementById("id-name").value
-  const img = document.getElementById("user-pic")
+  const name = document.getElementById("id-name").value;
   firebase.auth().createUserWithEmailAndPassword(email, pass)
     .then(firebaseUser => {
       const user = firebase.auth().currentUser
@@ -80,7 +99,7 @@ btnSignUp.addEventListener('click', e => {
 btnGoogle.addEventListener('click', e => {
   const provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithPopup(provider)
-    .then(result => {
+    .then( result => {
       window.location.href = 'main.html'
     }).catch(error => {
       alert('Hubo un error al Conectar')
@@ -88,16 +107,16 @@ btnGoogle.addEventListener('click', e => {
 
 })
 
-btnFacebook.addEventListener('click',e=>{
+btnFacebook.addEventListener('click', e => {
   const provider = new firebase.auth.FacebookAuthProvider();
   firebase.auth().signInWithPopup(provider)
-  .then(function(result) {
-    window.location.href = 'main.html'
+    .then(result => {
+      window.location.href = 'main.html'
 
-  }).catch(function(error) {
-    alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista')
+    }).catch(error => {
+      alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista')
 
-  });
+    });
 })
 btnLogout.addEventListener('click', e => {
   firebase.auth().signOut()
@@ -106,5 +125,24 @@ btnLogout.addEventListener('click', e => {
     }).catch(function (error) {
       console.log('hubo un error')
     });
-
+})
+const createPost = (postText,State) => {
+    const user = firebase.auth().currentUser
+    const postInfo = {
+      id: user.uid,
+      name: user.displayName,
+      post: postText,
+      postState: State,
+      likeCount:0,
+    };
+    const newPostKey = firebase.database().ref().child('posts').push().key;
+    let sharePost = {};
+    sharePost['/posts/' + newPostKey] = postInfo;
+    return firebase.database().ref().update(sharePost);  
+}
+const btnPublish = document.getElementById("btn-publish")
+const postArea = document.getElementById("post-action")
+const selectState = document.getElementById("select-state")
+btnPublish.addEventListener('click', event=>{
+   createPost(postArea.value,selectState.value)
 })
