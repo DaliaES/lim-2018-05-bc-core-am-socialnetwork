@@ -88,7 +88,7 @@ PROTOTIPO DE BAJA FIDELIDAD
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/gh-pages/img/wall.png)
+![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png)
 
 
 ## Organización del equipo de trabajo ↗
