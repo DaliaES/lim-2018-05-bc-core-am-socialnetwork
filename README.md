@@ -13,9 +13,18 @@
 
 *Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo. En Perú encontramos comunidades como "Bloguerhood, Mamás blogueras peruanas, Househelp-datos para compartir, Buscando empleadas y nanas de confianza Perú", entre otros*
 
+![im11](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png)
+
+![im12](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtags.png)
+
+![im13](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png)
+
+![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
+
+
 ## PARENTHOOK 👨🧒👧👩
 
-*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellos compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
+*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellxs compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
 
 1. SALUD 💉
 
@@ -57,10 +66,18 @@
 
 *El objetivo de Parenthook es* ***ser el lugar de referencia y el recurso de confianza al que se acuda para encontrar respuestas a preguntas y soluciones a inquietudes, que tienen los padres y madres que se encargan de la crianza de sus hijxs.***
 
+***Para lograr este objetivo, se descubrió a través de un sondeo de las principales redes sociales y comunidades que, por tratarse de información sensible, su acceso debe ser restringido al público objetivo; es decir, lxs usuarixs que interactuarán serán sólo personas que tengan niñxs.*** __Esta implementación será a mediano o largo plazo__ ***ya que nuestra recomendación es que durante un periodo inicial sea abierto al público para ganar seguidores e interactúen con la plataforma.***
+
+*La implementación de restricción se dará mediante un filtrado de datos.*
+
 
 ## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
-*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles.*
+*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles. La paleta de colores con la que se trabajó fue en su mayoría de colores tierra.*
+
+PALETA DE COLORES
+
+![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png)
 
 
 PROTOTIPO DE BAJA FIDELIDAD
@@ -71,7 +88,7 @@ PROTOTIPO DE BAJA FIDELIDAD
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/2-Sign%20Up.png)
+![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png)
 
 
 ## Organización del equipo de trabajo ↗
@@ -89,8 +106,22 @@ PRODUCT BACKLOG
 
 RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
 
+Muestra = 10
+
 ![img8](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png)
 
 ![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png)
 
-![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
+![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
+
+RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS 
+
+Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años, se puede concluir que:
+
+* el 75% de las madres entrevistadas recurre a internet cuando tienen alguna duda acerca de las categorías mencionadas respecto a sus hijxs.
+* el 100% de las madres comparte datos con otros padres y les gusta encontrar información de otros padres online.
+* el 25% de las madres entrevistadas prefiere recurrir a otras fuentes como la OMS, UNICEF, entre otros.
+* el 80% cree que otro papá o mamá puede dar mejores consejos que uno que no lo es.
+* el 50% toma decisiones de acuerdo a la información encontrada en comunidades o foros.
+
+[AUDIOS DE ENTREVISTAS AQUÍ](https://drive.google.com/open?id=14-U-brk3cKIHu3FaF_tfrJ5wTddGhY5x)
