@@ -29,8 +29,10 @@ window.onload = () => {
   });
   timelinePost()
 };
+
+
 const timelinePost =()=>{
-  const postContainer = document.getElementById("post-container")
+ const postContainer = document.getElementById("post-container") 
   firebase.database().ref('posts')
   .on('child_added',(createdPost)=>{
     postContainer.innerHTML +=`
