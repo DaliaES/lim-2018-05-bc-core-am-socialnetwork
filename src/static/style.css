@@ -44,8 +44,8 @@
 }
 /* Registro con google y facebook */
 .text-container{
-  color: rgb(25, 233, 233);
-  /* font-weight: lighter; */
+  color: white;
+  text-decoration: underline;
   font-size: 130%;
   padding-top: 5%;
   text-align: center;
@@ -122,11 +122,16 @@ textarea.materialize-textarea {
   padding-left: 5%;
   height: 55px;  
 }
-.post-action{
+.post-options{
   float: right;
+}
+select{
+  background-color: transparent;
+  width: 18%;
+  border: 0px
 }
 /* menu desplegable */
 .user-pic{
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%; 
 }

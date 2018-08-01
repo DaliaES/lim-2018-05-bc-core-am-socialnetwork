@@ -31,8 +31,8 @@
           </div>
           <div>
             <!-- <a href="#user"> -->
-              <img class="circle user-pic" id="user-pic" >
-             <!-- </a> -->
+            <img class="circle user-pic" id="user-pic">
+            <!-- </a> -->
           </div>
           <div>
             <a href="#name">
@@ -70,26 +70,27 @@
   </div>
   <section>
     <div class="input-field">
-        <i class="material-icons prefix">search</i>
-        <input type="search" value="Buscar">
+      <i class="material-icons prefix">search</i>
+      <input type="search" value="Buscar">
     </div>
 
-    <div class="input-field ">
+    <div class="input-field">
       <i class="material-icons prefix icon-user">account_circle</i>
       <div class="container-text">
-      <textarea class="materialize-textarea" placeholder="Comparte o pregunta"></textarea>
-    </div>
+        <textarea class="materialize-textarea" placeholder="Comparte o pregunta" id="post-action"></textarea>
+      </div>
+      <a class="waves-effect waves-light btn-small" id="btn-publish">Publicar</a>
+      <select class="browser-default" id="select-state">
+        <option value="" disabled selected>Estado</option>
+        <option value="Publico">Publico</option>
+        <option value="Privado">Privado</option>
+
+      </select>
+
     </div>
 
-    <div>
-      <div class="input-field">
-        <i class="material-icons prefix">account_circle</i>
-        <input  type="text" class="validate" value="Nombre de Usuario">
-      </div>
-      <div class="post-action">
-        <i class="material-icons prefix">thumb_up</i>
-        <button>Comentar</button>
-      </div>
+    <div id="post-container">
+
     </div>
 
   </section>
