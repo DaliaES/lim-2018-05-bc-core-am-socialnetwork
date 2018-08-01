@@ -106,7 +106,7 @@ PRODUCT BACKLOG
 
 RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
 
-Muestra = 10
+Muestra = 10 mamás con hijos entre 0 y 4 años
 
 ![img8](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png)
 
