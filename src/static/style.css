@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.description-tab{
+  display: none;
+}
 .style-form{
   width:80%;
   margin: auto;
@@ -15,7 +18,7 @@
   margin-right: 3%;
 }
 .text-label{
-  font-size: 15px;
+  font-size: 13px;
   color: white;
   font-weight: lighter;
   letter-spacing: 0.07em;
@@ -25,8 +28,12 @@
   font-weight: lighter;
   letter-spacing: 0.07em;
 }
+.text-input:focus{
+  border-bottom-color: #996600;
+}
 .btn-container{
   padding-top: 10%; 
+
 }
 .btn-style{
   color: #331a00;
@@ -38,9 +45,10 @@
   border-radius: 100px;
   padding-top:5px;
   height: 45px;
-  width: 150px;
+  width: 50%;
   display: block;
   margin:auto;
+  cursor: pointer;
 }
 /* Registro con google y facebook */
 .text-container{
@@ -59,10 +67,12 @@
 .btn-facebook{
  background-color: #3b5999;
  margin-right: 2%;
+ cursor: pointer;
 }
 .btn-google{
  background-color: #dd4b39;
  margin-left: 2%;
+ cursor: pointer;
 }
 .btn-style:hover{
   background-color: #996600;
@@ -148,3 +158,62 @@ select{
   background-repeat: no-repeat;
   background-size: 100%; 
 }
+@media (min-width:768px){
+  .back-img{
+    background-image: none;
+  }
+.description-tab{
+ display:inline-block;
+  width: 70%;
+  height: 100%;
+  background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.texto{
+  height:100%
+}
+.container-form{
+  float: right;
+  width: 30%;
+  margin-right: 0%;
+  margin-top: -60px;
+}
+.style-form{
+  width:60%;
+  margin: auto;
+  padding-top: 100px;
+  margin-top: -180px;
+}
+.text-label{
+  color: #331a00;
+  
+}
+.text-input{
+  color: #331a00;
+}
+.btn-style{
+  font-weight: normal;
+  width: 80%;
+  cursor: pointer;
+}
+.text-container{
+    color: #331a00;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+.log-icon{
+    color: #7c6043;
+    float:left;
+    margin-right: 3%;
+  }
+.logo-desk{
+  margin-bottom: 20%;
+  margin-top: 65px;
+  margin-left: 110px;
+  width: 200px;
+}
+}
+
