@@ -19,9 +19,6 @@
 
 ![im13](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png)
 
-![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
-
-
 ## PARENTHOOK 👨🧒👧👩
 
 *Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellxs compartiendo información de primera mano o boca a boca, la cual consideramos la más* ***práctica, confiable y efectiva que pueda haber.*** *Alguno de los temas y ejemplos  a tocar son:*
@@ -70,23 +67,39 @@
 
 *La implementación de restricción se dará mediante un filtrado de datos.*
 
+![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
 
-## Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
+## Diseño de la Interfaz de Usuario 
 
-*El diseño está orientado en el concepto* ***Mobile first*** *,el cual hace referencia a la vista desde dispositivos móviles. La paleta de colores con la que se trabajó fue en su mayoría de colores tierra.*
+*El diseño está orientado en el concepto* ***Mobile first*** ,*el cual hace referencia a la vista desde dispositivos móviles. Por esta razón, utilizamos un framework basado en Material Design que es* ***Materialize*** *ya que necesitamos que la app sea visualizada desde cualquier plataforma*
+
+![img10]()
+
+*La paleta de colores con la que se trabajó fue en su mayoría de colores tierra.*
 
 PALETA DE COLORES
 
 ![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png)
 
+IMAGOTIPO
+
+*Contamos con dos piezas gráficas, una para la documentación que es el que aparece al principio de este `README.md` y otra que utilizamos en la app:*
+
+![img10]()
+
 
 PROTOTIPO DE BAJA FIDELIDAD
 
-![img2]()
-![img3]()
+***DESTOP***
+![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg)
+
+***MOBILE***
+![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchmobile.jpg)
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
+
+*Para llevar acabo nuestro prototipo de alta fidelidad utilizamos* ***Figma*** *como herramienta de diseño*
 
 ![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png)
 
