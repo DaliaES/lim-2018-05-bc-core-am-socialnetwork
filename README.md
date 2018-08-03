@@ -93,11 +93,11 @@ PROTOTIPO DE BAJA FIDELIDAD
 
 ***DESKTOP***
 
-![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg)
+![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg)
 
 ***MOBILE***
 
-![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchmobile.jpg)
+![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg)
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
