@@ -53,8 +53,9 @@
 
 
    * cómo hago para que mi hijx quiera dormir en su cama?
-   * cómo se le castiga a un niño de 5 años?    
+   * cómo se le castiga a un niño de 5 años? 
 
+![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/categorys.jpg)      
 
 ## Acerca de los usuarixs 🤰🤱👫👬👭
 
