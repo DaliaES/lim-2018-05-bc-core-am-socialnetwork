@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .description-tab{
   display: none;
 }
@@ -28,7 +29,7 @@
   font-weight: lighter;
   letter-spacing: 0.07em;
 }
-.text-input:focus{
+.text-input:active{
   border-bottom-color: #996600;
 }
 .btn-container{
@@ -158,6 +159,9 @@ select{
   background-repeat: no-repeat;
   background-size: 100%; 
 }
+#restriction{
+  margin-top: -35px;
+}
 @media (min-width:768px){
   .back-img{
     background-image: none;
@@ -172,19 +176,29 @@ select{
   min-height: 100vh;
 }
 .texto{
-  height:100%
+  float: right;
+  border: 2px solid rgba(207, 198, 73, 0.863);
+  background-color: rgba(207, 198, 73, 0.863);
+  opacity: 0.6;
+  border-radius: 7%;
+  padding: 0.2em 0.2em;
+  text-align: center;
+  margin-top: 400px;
+  margin-right: 150px;
 }
 .container-form{
   float: right;
   width: 30%;
+  height: 638px;
   margin-right: 0%;
-  margin-top: -60px;
+  margin-top: -3px;
+  box-shadow: inset 3px 5px 20px 5px #915933;
 }
 .style-form{
   width:60%;
   margin: auto;
   padding-top: 100px;
-  margin-top: -180px;
+  margin-top: -150px;
 }
 .text-label{
   color: #331a00;
@@ -216,4 +230,5 @@ select{
   width: 200px;
 }
 }
+
 
