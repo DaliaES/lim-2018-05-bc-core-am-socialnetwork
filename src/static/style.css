@@ -80,34 +80,43 @@
   cursor: pointer;
 }
 /* Pagina home */
+.logo-desk{
+  display: none;
+}
 .home{
   background-color:#FFE9C8;
 }
-.container-logo{
+.nav-wrapper{
   background-color: white;
   border-bottom: 0.2px solid  #d9b38c;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
- display:inline-flex;
 }
- .container-logo:hover{
+.nav-wrapper:hover{
   border-bottom: 1px solid  #392613;
  }
-.container-logo .input-field {
-  width: 80%;
+ .nav-wrapper .input-field {
+  width: 45%;
 }
-.container-logo .input-field i {
-  color: rgb(175, 15, 42);
+.nav-wrapper .input-field i {
+  color: #604020;
   line-height: 43px;
 }
-.input-field input[type=search]{
-  width: 87%;
-  margin-left: 23%;
+/* .input-field .prefix .indicator{
+color:black; 
+} */
+.nav-wrapper .input-field input[type=search]{
+  width: 80%;
+  margin-left: 20%;
+  padding-left: 0%;
+  height: 3rem;
+  border-bottom: 1px solid #9e9e9e;
 }
-
+.timeline-body{
+  margin-top: 70px;
+}
 .logo{
   width: 27%;
   height: 99%;
-  margin-left: 15%
 }
 
 .sidenav-trigger{
@@ -119,6 +128,17 @@
   float: left;
   font-size: 35px;
   color: #604020;
+}
+.tabs{
+  background-color: #FFA133;
+  margin-top: -4.5px;
+}
+.tabs .indicator {
+  background: #392613;
+} 
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: rgb(238, 142, 32);
+  color: black
 }
 .textarea {
   width: 20%;
