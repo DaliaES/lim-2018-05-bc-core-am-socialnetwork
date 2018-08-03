@@ -3,21 +3,19 @@
 ## Introducción 👋
 
 *Hoy en día el mundo digital se ha inmortalizado en nuestras vidas, tanto así que a la primera fuente que recurrimos cada vez que tenemos una duda es Internet, interactuamos en redes sociales todo el tiempo, compartimos todo lo que nos pasa (o lo que nos va pasar). Resolvemos dudas, hacemos preguntas, debatimos y hasta encontramos a la media naranja en una red social.*
-
 *En este marco podemos entender que el uso de internet puede ser positivo o negativo según su uso, en esta ocasión analizamos un tema bastante explorado pero poco desarrollado a nivel producto: la necesidad de los padres de contar con información importante, exclusiva y de primera mano acerca del cuidado de sus hijos. A través de investigación cualitativa y cuantitativa a madres y padres se encontró que el 87% de padres acude primero a Internet desde sus móviles para buscar información de diversos temas como recomendaciones de pediatras, colegios o simplemente la comida que deben comer sus hijos de acuerdo a su edad.* Ver Anexo 1
 
 *Por ejemplo, un estudio realizado por Google/Ipsos llamado “Vínculo emocional de los latinoamericanos con YouTube”, señaló que* ***un 55% de padres piensan que Youtube les permite conocer mejor el mundo de sus hijos y que 6 de cada 10 padres acuden a Youtube para aprender cómo hacer algo, además el mismo Youtube menciona que ha aumentado la búsqueda en la categoría 'bebés'*** *como se muestra a continuación:*
 
-![img1](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/stadyoutube.jpg)
-
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/stadyoutube.jpg" alt="stadyoutube" border="0"></p>
 
 *Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo. En Perú encontramos comunidades como "Bloguerhood, Mamás blogueras peruanas, Househelp-datos para compartir, Buscando empleadas y nanas de confianza Perú", entre otros*
 
-![im11](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png" alt="househelp" border="0"></p>
 
-![im12](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtags.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtags.png" alt="hashtags" border="0"></p>
 
-![im13](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/hashtagslegal.png" alt="hashtagslegal" border="0"></p>
 
 ## PARENTHOOK 👨🧒👧👩
 
@@ -55,7 +53,7 @@
    * cómo hago para que mi hijx quiera dormir en su cama?
    * cómo se le castiga a un niño de 5 años? 
 
-![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/categorys.jpg)      
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/categorys.jpg" alt="categorys" border="0"></p>     
 
 ## Acerca de los usuarixs 🤰🤱👫👬👭
 
@@ -69,58 +67,58 @@
 
 *La implementación de restricción se dará mediante un filtrado de datos. Ejemplo:*
 
-![im14](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/buscandoempynan.png" alt="buscandoempynan" border="0"></p>     
 
 ## Diseño de la Interfaz de Usuario 
 
 *El diseño está orientado en el concepto* ***Mobile first*** ,*el cual hace referencia a la vista desde dispositivos móviles. Por esta razón, utilizamos un framework basado en Material Design que es* ***Materialize*** *ya que necesitamos que la app sea visualizada desde cualquier plataforma*
 
-![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/materialize.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/materialize.png" alt="materialize" border="0"></p>     
 
 PALETA DE COLORES
 
 *La paleta de colores con la que se trabajó fue en su mayoría de colores tierra. Se utilizó la herramienta online* ***Coolors***
 
-![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png" alt="paleta" border="0"></p>  
 
 IMAGOTIPO
 
 *Contamos con dos piezas gráficas, una para la documentación que es el que aparece al principio de este `README.md` y otra que utilizamos en la app:*
 
-![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/imagotipo.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/imagotipo.png" alt="imagotipo" border="0"></p>  
 
 
 PROTOTIPO DE BAJA FIDELIDAD
 
 ***DESKTOP***
 
-![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg" alt="sketchdesktop" border="0"></p>  
 
 ***MOBILE***
 
-![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg" alt="bajafidelidad" border="0"></p>  
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
 
 *Para llevar acabo nuestro prototipo de alta fidelidad utilizamos* ***Figma*** *como herramienta de diseño*
 
-![img4](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png" alt="prototipo" border="0"></p>  
 
 
 ## Organización del equipo de trabajo ↗
 
 DESIGN THINKING
 
-![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/design-thinking.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/design-thinking.png" alt="design-thinking" border="0"></p>  
 
 TRELLO
 
-![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png" alt="trello" border="0"></p>  
 
 PRODUCT BACKLOG
 
-![img6](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/backlog.jpg)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/backlog.jpg" alt="backlog" border="0"></p>  
 
 
 ## Anexos
@@ -129,11 +127,11 @@ PRODUCT BACKLOG
 
 Muestra = 10 mamás con hijos entre 0 y 4 años
 
-![img8](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png" alt="encuesta1" border="0"></p>  
 
-![img9](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta2.png" alt="encuesta2" border="0"></p>  
 
-![img10](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png)
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png" alt="encuesta3" border="0"></p>  
 
 2.RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS 
 
