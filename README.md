@@ -21,7 +21,8 @@
 
 ## PARENTHOOK 👨🧒👧👩
 
-*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellxs compartiendo información de primera mano o boca a boca, la cual nuestras fuentes la definieron como la más* ***práctica, confiable y efectiva que pueda haber.*** Ver Anexo 2 *Alguno de los temas y ejemplos a tocar son:*
+*Es así como nace una red social pensado en ellxs, un lugar en el cyberespacio donde puedan interactuar entre ellxs compartiendo información de primera mano o boca a boca, la cual nuestras fuentes la definieron como la más* ***práctica, confiable y efectiva que pueda haber.*** Ver Anexo 2
+*Alguno de los temas y ejemplos a tocar son:*
 
 1. SALUD 💉
 
@@ -94,6 +95,7 @@ PROTOTIPO DE BAJA FIDELIDAD
 ![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg)
 
 ***MOBILE***
+
 ![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchmobile.jpg)
 
 
