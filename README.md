@@ -82,8 +82,8 @@ PALETA DE COLORES
 
 PROTOTIPO DE BAJA FIDELIDAD
 
-![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketch.jpg)
-![img3](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/baja2.jpg)
+![img2]()
+![img3]()
 
 
 PROTOTIPO DE ALTA FIDELIDAD 
