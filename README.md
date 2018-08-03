@@ -110,6 +110,10 @@ PROTOTIPO DE ALTA FIDELIDAD
 
 ## Organización del equipo de trabajo ↗
 
+DESIGN THINKING
+
+![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/design-thinking.png)
+
 TRELLO
 
 ![img5](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png)
