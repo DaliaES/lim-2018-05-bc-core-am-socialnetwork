@@ -91,7 +91,8 @@ IMAGOTIPO
 
 PROTOTIPO DE BAJA FIDELIDAD
 
-***DESTOP***
+***DESKTOP***
+
 ![img2](https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg)
 
 ***MOBILE***
