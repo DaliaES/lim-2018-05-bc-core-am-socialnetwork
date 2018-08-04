@@ -151,11 +151,4 @@ btnPublish.addEventListener('click', event=>{
    createPost(postArea.value,selectState.value)
 })
 
-(function() {
-  var restr = document.getElementById('restriction');
-  var dialog = document.getElementById('favDialog');
-  restriction.addEventListener('click', function() {
-    dialog.showModal();
-    openCheck(dialog);
-  });
-})();
+
