@@ -30,7 +30,6 @@ window.onload = () => {
   timelinePost()
 };
 
-
 const timelinePost =()=>{
  const postContainer = document.getElementById("post-container") 
   firebase.database().ref('posts')
@@ -111,6 +110,9 @@ btnGoogle.addEventListener('click', e => {
 
 btnFacebook.addEventListener('click', e => {
   const provider = new firebase.auth.FacebookAuthProvider();
+  provider.setCustomParameters({
+    'display':'popup'
+  });
   firebase.auth().signInWithPopup(provider)
     .then(result => {
       window.location.href = 'main.html'

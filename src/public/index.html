@@ -13,60 +13,58 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link type="text/css" rel="stylesheet" href="../static/framework/css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
-  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-database.js"></script>
 </head>
 
 <body class="back-img">
-  <div class="description-tab">
-    <div class="texto">
-        <p>Bienvenid@ a la red de padres más informada en Perú</p>
-        <p>Crianza</p>
-        <p>Alimentación</p>
-        <p>y más</p>
-    </div>
-  </div>
+  <div class="container-register">
+    <div class="description-tab">
+        <div class="texto">
+            <p>Bienvenid@ a la red de padres más informada en Perú</p>
+            <p>Crianza</p>
+            <p>Alimentación</p>
+            <p>y más</p>
+        </div> 
+  </div>  
   <div class="container-form" >
   <img class="logo-desk" src= "https://preview.ibb.co/cy08GK/logoparenthookwall.png">
-
     <form class="style-form" id="login-form"> 
     <div>
       <div>
         <i class="material-icons  log-icon">email</i>
-        <label for="email-log" class="text-label">E-mail</label>
+        <label for="email-log" class="text-label white-text">E-mail</label>
       </div>
-      <input type="email" id="email-log" class="text-input">
+      <input type="email" id="email-log" class="text-input white-text">
     </div>
     <div>
       <div>
         <i class="material-icons log-icon">lock</i>
-        <label for="password-log" class="text-label">Contraseña</label>
+        <label for="password-log" class="text-label white-text">Contraseña</label>
       </div>
-      <input type="password" id="password-log" class="text-input">
+      <input type="password" id="password-log" class="text-input white-text">
     </div>
     <div class="btn-container">
       <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>
     </div>
-    <div class="text-container">
-      <li>O ingresar con</li>
-    </div>
     <div class="container-social-btn">
+        <p class=" text-container white-text">O ingresar con</p>
       <a id="btn-facebook" class="waves-effect waves-light btn social facebook btn-facebook">
         <i class="fa fa-facebook"></i>
       </a>
       <a id="btn-google" class="waves-effect waves-light btn social google btn-google">
         <i class="fa fa-google"></i>
       </a>
-      <br>
-      <br>
-      <span>¿Aún no tienes cuenta?</span>  
-      <div class="text-container">  
-      <li id="go-signup" style="text-decoration:underline"> Únete ahora</li> 
-      <br>
-      <br>
-      <li id="restriction" style="font-size: 12px">Lo que debes saber</li>
+      <div class="text-container"> 
+      <a class="white-text">¿Aún no tienes cuenta?</a>   
+      <a id="go-signup" class="white-text" style="text-decoration:underline"> Únete ahora</a> 
+      <p class="white-text" style="font-size: 12px">Lo que debes saber</p>
     </div>
+  </div>
   </form>
   </div>
+</div>
   <div class="error-label">
     <ul id="btn-signup"></ul>
     <p id="user-name"></p>
