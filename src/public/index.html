@@ -60,11 +60,19 @@
         <p class="text-container white-text center">¿Aún no tienes cuenta?
           <a id="go-signup" class="white-text" style="text-decoration:underline">Únete ahora</a>
         </p>
-        <h6 class="center login-form-text white-text">Lo que debes saber</h6>
+      <h6  id="restriction"class=" modal-trigger center white-text" href="#modal1">Lo que debes saber</h6>
+      <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h5>Modal Header</h5>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
       </form>
       <!-- </div> -->
     </div>
-
   </div>
   <div class="error-label">
     <ul id="btn-signup"></ul>
@@ -80,6 +88,7 @@
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>
+  <script src="../static/estilos.js"></script>
   <script src="../static/login.js"></script>
 </body>
 

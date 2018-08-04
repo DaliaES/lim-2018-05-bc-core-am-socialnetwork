@@ -150,3 +150,5 @@ const selectState = document.getElementById("select-state")
 btnPublish.addEventListener('click', event=>{
    createPost(postArea.value,selectState.value)
 })
+
+
