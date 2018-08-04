@@ -1,4 +1,8 @@
 /* Pagina de login y registro */
+html, body {
+  height: 100%;
+  width: 100%;
+}
 .back-img{
   background-image:url("https://image.ibb.co/ct1Wio/fondo_log.png");
   background-repeat: no-repeat;
@@ -10,7 +14,7 @@
 .style-form{
   width:80%;
   margin: auto;
-  padding-top: 60%;
+  padding-top: 150px;
 }
 .log-icon{
   color: rgba(255, 255, 255, 0.774);
@@ -19,21 +23,18 @@
 }
 .text-label{
   font-size: 13px;
-  color: white;
   font-weight: lighter;
   letter-spacing: 0.07em;
 }
 .text-input{
-  color: white;
   font-weight: lighter;
   letter-spacing: 0.07em;
 }
-.text-input:focus{
+.text-input:active{
   border-bottom-color: #996600;
 }
 .btn-container{
   padding-top: 10%; 
-
 }
 .btn-style{
   color: #331a00;
@@ -52,16 +53,11 @@
 }
 /* Registro con google y facebook */
 .text-container{
-  color: white;
-  text-decoration: underline;
   font-size: 130%;
-  padding-top: 5%;
-  text-align: center;
   list-style: none;
   letter-spacing: 0.04em;
 }
 .container-social-btn{
-  padding-top: 8%;
   text-align: center;
 }
 .btn-facebook{
@@ -118,7 +114,6 @@ color:black;
   width: 27%;
   height: 99%;
 }
-
 .sidenav-trigger{
   display: block;
   float: left;
@@ -178,33 +173,53 @@ select{
   background-repeat: no-repeat;
   background-size: 100%; 
 }
-@media (min-width:768px){
-  .back-img{
-    background-image: none;
-  }
-.description-tab{
- display:inline-block;
-  width: 70%;
+@media screen and (min-width:768px){
+.back-img{
+  background-image: none;
   height: 100%;
-  background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
 }
-.texto{
-  height:100%
+
+.container-register{
+  height: 100%;
+  width: 100%;
+  display:inline-flex;
 }
+.description-tab{
+ 
+  display:inline-flex;
+  /* float: left; */
+   width: 70%;
+   /* height: 100%; */
+
+   background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* height: 100%; */
+   min-height: 100vh;
+ }
+ .texto{
+   float: right;
+   border: 2px solid rgba(207, 198, 73, 0.863);
+   background-color: rgba(207, 198, 73, 0.863);
+   opacity: 0.6;
+   border-radius: 7%;
+   padding: 0.2em 0.2em;
+   text-align: center;
+   margin-top: 400px;
+   margin-right: 150px;
+ }
 .container-form{
-  float: right;
+  flex:1;
+  /* float: right; */
   width: 30%;
-  margin-right: 0%;
-  margin-top: -60px;
+  height: 662px;
+  /* margin-right: 0%; */
+  /* margin-top: -3px; */
+  box-shadow: inset 3px 5px 20px 5px #915933;
 }
 .style-form{
-  width:60%;
-  margin: auto;
-  padding-top: 100px;
-  margin-top: -180px;
+  width:70%;
+  margin-top: -150px;
 }
 .text-label{
   color: #331a00;
@@ -230,10 +245,46 @@ select{
     margin-right: 3%;
   }
 .logo-desk{
+  display: block;
   margin-bottom: 20%;
   margin-top: 65px;
-  margin-left: 110px;
-  width: 200px;
+  margin-left: 20%;
+  width: 60%;
 }
 }
-
+@media (min-width:1020px){
+  .back-img{
+    background-image: none;
+  }
+  .description-tab{
+   /* display:inline-block; */
+   display:inline-flex;
+   float: left;
+    width: 70%;
+    /* height: 100%; */
+    
+    background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .container-register{
+    height: 100%;
+    width: 100%;
+    display:inline-flex;
+  }
+  .container-form{
+    float: right;
+    width: 30%;
+    height: 700px;
+    /* margin-right: 0%; */
+    /* margin-top: -3px; */
+    box-shadow: inset 3px 5px 20px 5px #915933;
+  }
+  .style-form{
+    width:60%;
+    margin: auto;
+    padding-top: 100px;
+    margin-top: -150px;
+  }
+}
