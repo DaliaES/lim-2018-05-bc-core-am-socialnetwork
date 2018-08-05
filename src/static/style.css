@@ -38,6 +38,9 @@ html, body{
   cursor: pointer;
 }
 /* Registro con google y facebook */
+.container-form{
+  margin-top: 178PX;
+}
 .text-container{
   font-size: 130%;
   letter-spacing: 0.04em;
@@ -208,4 +211,10 @@ display: block;
   margin-left: 20%;
   width: 60%;
 }
+/* nav i.material-icons{
+  display: */
+.align-category{
+  margin-top: -7px;
+}  
 }
+
