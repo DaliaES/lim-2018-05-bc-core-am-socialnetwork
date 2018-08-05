@@ -1,7 +1,6 @@
 const btnLogin = document.getElementById("btn-login");
 const btnSignUp = document.getElementById("btn-signup");
 const btnLogout = document.getElementById("btn-logout");
-const signUpForm = document.getElementById("go-signup");
 const btnGoogle = document.getElementById("btn-google");
 const btnFacebook = document.getElementById("btn-facebook");
 let database = firebase.database()
@@ -28,8 +27,6 @@ window.onload = () => {
     }
   });
   timelinePost()
-
-
 };
 
 window.timelinePost = () => {
@@ -124,8 +121,7 @@ btnLogin.addEventListener('click', e => {
     .then(result => window.location.href = 'main.html')
     .catch(e => alert('No Iniciaste sesion correctamente o este usuario no existe, para ingresar Registrate'))
 });
-// ir a form signup
-signUpForm.addEventListener('click', e => window.location.href = 'signup.html')
+
 // agregar evento de signup
 btnSignUp.addEventListener('click', e => {
   const email = document.getElementById("email-sign").value;
@@ -137,23 +133,25 @@ btnSignUp.addEventListener('click', e => {
       if (user) {
         user.updateProfile({
           displayName: name,
-        }).then(verification => {
-          user.sendEmailVerification()
-            .then(verification => {
-              const divForm = document.getElementById("signup-form")
-              divForm.innerHTML = '<span>Se te envio un mensaje de verificacion, revisa tu bandeja de entrada.Si se verifico tu correo correctamente </span>';
-              pelement = document.createElement('p')
-              pelement.innerHTML = 'Inicia Sesion'
-              divForm.appendChild(pelement)
-              pelement.addEventListener('click', action => window.location.href = 'index.html')
-            }).catch(error => {
-              console.log('hay un error')
-            });
         })
+       emailVerification()
       }
-    })
+      })
     .catch(e => alert('No se registro correctamente'));
 })
+
+window.emailVerification= () =>{
+  const user = firebase.auth().currentUser
+    user.sendEmailVerification()
+      .then(result=>{
+        ShowMsgVerification()
+      }
+      )
+      .catch(error => {
+        console.log('hay un error')    
+  })
+}
+
 // agregando evento de registro con google
 btnGoogle.addEventListener('click', e => {
   const provider = new firebase.auth.GoogleAuthProvider();
