@@ -35,7 +35,7 @@
       <div class="nav-content">
         <ul class="tabs">
           <li class="tab col s3">
-            <a class="black-text" href="#">SALUD</a>
+            <a class="black-text" href="#"> SALUD</a>
           </li>
           <li class="tab col s3">
             <a class="black-text" href="#">EDUCACIÓN</a>
@@ -105,7 +105,7 @@
     <div class="input-field">
       <i class="material-icons prefix icon-user">account_circle</i>
       <div class="container-text">
-        <textarea class="materialize-textarea" placeholder="Comparte o pregunta..." id="post-action"></textarea>
+        <textarea class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
       </div>
       <a class="waves-effect waves-light btn-small" id="btn-publish">Publicar</a>
       <select class="browser-default" id="select-state">
@@ -116,6 +116,26 @@
     </div>
     <div id="post-container">
     </div>
+    <div>
+  <div id="modaledit" class="modal">
+    <div class="modal-content">
+        <div class="input-field">
+            <i class="material-icons prefix icon-user">account_circle</i>
+            <div class="container-text">
+              <textarea id="edit-text" class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
+            </div>
+          </div>  
+    </div>
+    <div class="modal-footer">
+        <select class="browser-default" id="edit-state">
+            <option value="" disabled selected>Privacidad</option>
+            <option value="Publico">Público</option>
+            <option value="Privado">Privado</option>
+          </select>
+      <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+    </div>
+  </div>
+</div>
   </section>
   <div class="error-label">
     <p id="btn-login"></p>
@@ -130,7 +150,6 @@
   <script src="../static/estilos.js"></script>
   <script src="../static/login.js"></script>
   <script src="../static/main.js"></script>
-
 </body>
 
 </html>
