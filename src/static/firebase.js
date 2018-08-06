@@ -1,4 +1,3 @@
-
     // Initialize Firebase
     const config = {
         apiKey: "AIzaSyAwvRZDHdStbRnHGyH4hE23iLFqxTVmHZA",
