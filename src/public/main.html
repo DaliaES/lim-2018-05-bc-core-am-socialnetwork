@@ -34,63 +34,58 @@
       </div>
       <div class="nav-content">
         <ul class="tabs">
-            <div class="align-category">
-          <li class="tab col s3">
-            <a class=" modal-trigger center black-text" href="#modal1"><i class="material-icons">local_hospital</i>SALUD</a>
+          <li class="tab col s3 l4">
+            <a class=" modal-trigger center black-text" href="#modal1">
+              <i class="material-icons">local_hospital</i> SALUD</a>
           </li>
-        </div>
-          <div class="align-category">
-          <li class="tab col s3">
-              <a class="black-text"href="#"><i class="material-icons tab-icon" >school</i>EDUCACIÓN</a>
+          <li class="tab col s3 l4">
+            <a class="black-text" href="#">
+              <i class="material-icons tab-icon">school</i> EDUCACIÓN</a>
           </li>
-        </div>
-        <div class="align-category">
-          <li class="tab col s3">
-            <a class=" modal-trigger center black-text" href="#modal2"><i class="material-icons">home</i>APOYO EN CASA</a>
+          <li class="tab col s3 l4">
+            <a class=" modal-trigger center black-text" href="#modal2">
+              <i class="material-icons">home</i>APOYO EN CASA</a>
           </li>
-        </div> 
-        <div class="align-category">
-          <li class="tab col s3">
-            <a class="black-text" href="#"><i class="material-icons">child_care </i>CRIANZA</a>
+          <li class="tab col s3 l4">
+            <a class="black-text" href="#">
+              <i class="material-icons">child_care </i> CRIANZA</a>
           </li>
-        </div>
-        <div class="align-category">
-          <li class="tab col s3">
-            <a class="black-text" href="#"><i class="material-icons">restaurant</i>ALIMENTACIÓN</a>
+          <li class="tab col s3 l4">
+            <a class="black-text" href="#">
+              <i class="material-icons">restaurant</i> ALIMENTACIÓN</a>
           </li>
-        </div>  
-        <div class="align-category">
-            <li class="tab col s3">
-              <a class="black-text" href="#"><i class="material-icons">child_friendly</i>OTROS</a>
-            </li>
-          </div>  
+          <li class="tab col s3 l4">
+            <a class="black-text" href="#">
+              <i class="material-icons">child_friendly</i> OTROS</a>
+          </li>
         </ul>
       </div>
     </nav>
     <div id="modal1" class="modal">
-        <div class="modal-content">
-          <h5>Para tener en cuenta...</h5>
-          <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
-        </div>
+      <div class="modal-content">
+        <h5>Para tener en cuenta...</h5>
+        <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
       </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
+    </div>
 
-      <div id="modal2" class="modal">
-          <div class="modal-content">
-            <h5>Para tener en cuenta...</h5>
-            <ol>
-              <li class="black-text">En caso de recomendaciones de personal, debes recomendar únicamente a 
-                empleadas y nanas que conozcas, que hayan trabajado contigo o con amigxs o familiares.</li>
-              <li class="black-text">Ninguna agencia de empleos, ni personas que colocan personal está permitida, 
-                en caso las identifiquen por favor reportarlas.</li>
-            </ol>
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
-          </div>
-        </div>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h5>Para tener en cuenta...</h5>
+        <ol>
+          <li class="black-text">En caso de recomendaciones de personal, debes recomendar únicamente a empleadas y nanas que conozcas, que hayan
+            trabajado contigo o con amigxs o familiares.</li>
+          <li class="black-text">Ninguna agencia de empleos, ni personas que colocan personal está permitida, en caso las identifiquen por favor
+            reportarlas.
+          </li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
+    </div>
   </div>
 
   <div>
@@ -155,26 +150,32 @@
     </div>
     <div id="post-container">
     </div>
-    <div>
-  <div id="modaledit" class="modal">
-    <div class="modal-content">
-        <div class="input-field">
+      <div id="modaledit" class="modal">
+        <div class="modal-content">
+          <div class="input-field">
             <i class="material-icons prefix icon-user">account_circle</i>
             <div class="container-text">
               <textarea id="edit-text" class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
             </div>
-          </div>  
-    </div>
-    <div class="modal-footer">
-        <select class="browser-default" id="edit-state">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <select class="browser-default" id="edit-state">
             <option value="" disabled selected>Privacidad</option>
             <option value="Publico">Público</option>
             <option value="Privado">Privado</option>
           </select>
-      <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
-    </div>
-  </div>
-</div>
+          <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+        </div>
+      </div>
+      <div id="modaldelete" class="modal">
+          <div class="modal-content">
+          </div>
+          <div class="modal-footer">
+            <a href="#!" data-id="" data-value="" id="btn-delete-post" class="modal-close waves-effect waves-green btn-flat">Eliminar</a>
+            <a href="#!" data-id="" data-value="" id="btn-cancel-delete" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+          </div>
+        </div>
   </section>
   <div class="error-label">
     <p id="btn-login"></p>

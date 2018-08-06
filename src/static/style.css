@@ -10,17 +10,12 @@ html, body{
 .description-tab{
   display: none;
 }
-/* .style-form{
-  padding-top: 99px;
-} */
-
-/* .text-label{
-  font-size: 13px;
+/* .container-form{
+  } */
+form .input-field label,form .input-field input{
   font-weight: lighter;
-  letter-spacing: 0.07em;
-} */
-.btn-container{
-  
+  letter-spacing: 0.08em;
+  font-size: 16px;
 }
 .btn-style{
   color: #1a140d;
@@ -38,22 +33,19 @@ html, body{
   cursor: pointer;
 }
 /* Registro con google y facebook */
-.container-form{
-  margin-top: 178PX;
-}
 .text-container{
-  font-size: 130%;
-  letter-spacing: 0.04em;
+  font-size: 18px;
+  letter-spacing: 0.07em;
+}
+.btn-facebook,.btn-google{
+  margin-right: 2%;
+  cursor: pointer;
 }
 .btn-facebook{
  background-color: #3b5999;
- margin-right: 2%;
- cursor: pointer;
 }
 .btn-google{
- background-color: #dd4b39;
- margin-left: 2%;
- cursor: pointer;
+ background-color: #d14836;
 }
 .btn-style:hover{
   background-color: #996600;
@@ -82,9 +74,9 @@ html, body{
   color: #604020;
   line-height: 43px;
 }
-/* .input-field .prefix .indicator{
-color:black; 
-} */
+nav i.material-icons, nav i{
+  line-height: 40px;
+}
 .nav-wrapper .input-field input[type=search]{
   width: 80%;
   margin-left: 20%;
@@ -158,16 +150,27 @@ select{
   background-repeat: no-repeat;
   background-size: 100%; 
 }
-@media screen and (min-width:900px){
+@media screen and (min-width:600px){
 .back-img{
   background-image: none;
 }
 .description-tab{
-display: block;
-   background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+  display: block;
+  background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
  }
+ .logo-desk{
+  display: block;
+  margin-top: 30px;
+}
+.container-form{
+  height:100vh;
+}
+.row{
+  margin-bottom: 0px
+} 
  /* .texto{
    float: right;
    border: 2px solid rgba(207, 198, 73, 0.863);
@@ -182,47 +185,10 @@ display: block;
 .container-form{
   box-shadow: inset 3px 5px 20px 5px #915933;
 }
-.text-label{
-  color: #331a00;
-}
-.text-input{
-  color: #331a00;
-}
-.btn-style{
-  font-weight: normal;
-  width: 80%;
-  cursor: pointer;
-}
-.text-container{
-    color: #331a00;
-    font-size: 15px;
-    cursor: pointer;
-    text-decoration: none;
+form .input-field i.white-text{
+    color: #7c6043 !important;
   }
-.log-icon{
-    color: #7c6043;
-    float:left;
-    margin-right: 3%;
-  }
-.logo-desk{
-  display: block;
-  margin-bottom: 20%;
-  margin-top: 65px;
-  margin-left: 20%;
-  width: 60%;
+form .input-field label.white-text,form .input-field input.white-text, form p.white-text,form p a.white-text,form h6.white-text{
+  color: #331a00 !important;
 }
-/* nav i.material-icons{
-  display: */
-.align-category{
-  margin-top: -7px;
-} 
-/* .tittle{
-  display: none;
-  /* color: yellow; */
-  margin-top: 70%;
-  /* margin-left: 50px;
-  width: 35%;
-  border: 2px solid #dd4b39; */
-} 
-
-
+}

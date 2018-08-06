@@ -94,6 +94,8 @@
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop.jpg" alt="sketchdesktop" border="0"></p>  
 
+<p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/sketchdesktop2.jpg" alt="sketchdesktop2" border="0"></p>
+
 ***MOBILE***
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg" alt="bajafidelidad" border="0"></p>  
@@ -109,19 +111,19 @@
 
 CON PROTOTIPO
 
-* *Cuando testeamos el prototipo, la primera impresión fue que eran muy oscuros los colores del muro, por eso decidimos cambia de marrón a naranja pastel*
+> *Cuando testeamos el prototipo, la primera impresión fue que eran muy oscuros los colores del muro, por eso decidimos cambia de marrón a naranja pastel*
 
-* *Así mismo, nos recomendaron poner el nombre "Parenthook" más grande en la sección del login y registro , para la vista mobile.*
+> *Así mismo, nos recomendaron poner el nombre "Parenthook" más grande en la sección del login y registro , para la vista mobile.*
 
-* *En cuanto a la vista desktop, nos dieron el feedback de dividir en dos el login (imagen y formulario) para que se vea más interactiva.*
+> *En cuanto a la vista desktop, nos dieron el feedback de dividir en dos el login (imagen y formulario) para que se vea más interactiva.*
 
 CON INTERFACE IMPLEMENTADA
 
-* *De acuerdo al contenido, varixs usuarixs manifestaron que les gustaría encontrar la información de las categorías de forma ordenada, ya que sino se parecería a Facebook donde tienen que encontrar la información mediante hashtags ya que todo se encuentra mezclado. Es por esto que implementamos un segundo nav bar donde se encuentren los posts por categoría.*
+> *De acuerdo al contenido, varixs usuarixs manifestaron que les gustaría encontrar la información de las categorías de forma ordenada, ya que sino se parecería a Facebook donde tienen que encontrar la información mediante hashtags ya que todo se encuentra mezclado. Es por esto que implementamos un segundo nav bar donde se encuentren los posts por categoría.*
 
-* *Siguiendo en la línea de practicidad que es lo que busca nuestro público objetivo, también mencionaron que es importante recalcar en algunas categorías como "Salud" que la información o dato recavado sea corroborada por un especialista de forma personal ya que se entiende que la interacción será mediante padres o madres. Es por esto que se implementó un mensaje antes de entrar a la categoría Salud*
+> *Siguiendo en la línea de practicidad que es lo que busca nuestro público objetivo, también mencionaron que es importante recalcar en algunas categorías como "Salud" que la información o dato recavado sea corroborada por un especialista de forma personal ya que se entiende que la interacción será mediante padres o madres. Es por esto que se implementó un mensaje antes de entrar a la categoría Salud*
 
-* *Además persona que ya tenían experiencia tomando datos de personal de apoyo en casa, nos dijeron que es vital poner un aviso donde se informe que no está permitido empresas o personas que se dediquen a la colocación de personal ya que va en contra de lo que ellos buscan que es el boca a boca.*
+> *Además persona que ya tenían experiencia tomando datos de personal de apoyo en casa, nos dijeron que es vital poner un aviso donde se informe que no está permitido empresas o personas que se dediquen a la colocación de personal ya que va en contra de lo que ellos buscan que es el boca a boca.*
 
 
 ## Organización del equipo de trabajo ↗
@@ -130,7 +132,7 @@ CON INTERFACE IMPLEMENTADA
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/design-thinking.png" alt="design-thinking" border="0"></p>  
 
-TRELLO
+***TRELLO***
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png" alt="trello" border="0"></p>  
 

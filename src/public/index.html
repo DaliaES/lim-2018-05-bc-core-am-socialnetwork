@@ -23,8 +23,8 @@
       <img src="https://image.ibb.co/kgzvke/nombremobile.png"
   </div> -->
   <div class="row">
-    <div class="col l8 description-tab">
-
+    <div class="col s0 m6 l8 description-tab">
+      <!-- <img src="https://preview.ibb.co/doWzMK/portada2.jpg" alt=""> -->
       <!-- <div class="texto">
         <p>Bienvenid@ a la red de padres más informada en Perú</p>
         <p>Crianza</p>
@@ -32,52 +32,52 @@
         <p>y más</p>
       </div> -->
     </div>
-    <div class=" container-form col s10 push-s1 m8 push-m2 ">
-      <div class="logo-desk">
+    <div class="container-form col s10 push-s1 m6  l4">
+      <div class="logo-desk col m8 push-m2">
         <img class="responsive-img" src="https://preview.ibb.co/cy08GK/logoparenthookwall.png">
       </div>
-      <!-- <div class=""> -->
-      <form class="style-form" id="login-form">
-        <div class=" section input-field ">
-          <i class="material-icons prefix white-text log-icon">email</i>
-          <input id="email-log" type="email" class=" white-text ">
-          <label for="email-log" class="white-text">E-mail</label>
-        </div>
-        <div class=" section input-field ">
-          <i class="material-icons prefix white-text log-icon">lock</i>
-          <input id="password-log" type="password" class=" white-text ">
-          <label for="password-logg" class="white-text">Contraseña</label>
-        </div>
-        <div class="btn-container">
-          <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>
-        </div>
-        <p class=" text-container center white-text">O ingresar con</p>
-        <div class="center">
-          <a id="btn-facebook" class="waves-effect waves-light btn social facebook btn-facebook">
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a id="btn-google" class="waves-effect waves-light btn social google btn-google">
-            <i class="fa fa-google"></i>
-          </a>
-        </div>
-        <p class="text-container white-text center">¿Aún no tienes cuenta?
-          <a id="go-signup" class="white-text" style="text-decoration:underline">Únete ahora</a>
-        </p>
-      <h6  id="restriction"class=" modal-trigger center white-text" href="#modal1">Lo que debes saber</h6>
-      <div id="modal1" class="modal">
-          <div class="modal-content">
-            <h5>Hola!</h5>
-            <p>Debes tener presente que el registro de Parenthook por 3 meses será abierto al público, 
-              luego de este periodo, añadiremos un filtro de admisión/permanencia para salvaguardar que el tráfico de 
-              información compartida sea sólo de padres y/o personas con niñxs. En Parenthook queremos asegurarnos de que
-              encuentres datos verídicos y evitar que accedas a información lucrativa.</p>
+      <div class="col m10 push-m1">
+        <form class="style-form">
+          <div class=" section input-field ">
+            <i class="material-icons prefix white-text ">email</i>
+            <input id="email-log" type="email" class=" white-text ">
+            <label for="email-log" class="white-text">E-mail</label>
           </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+          <div class=" section input-field ">
+            <i class="material-icons prefix white-text">lock</i>
+            <input id="password-log" type="password" class=" white-text ">
+            <label for="password-logg" class="white-text">Contraseña</label>
           </div>
-        </div>
-      </form>
-      <!-- </div> -->
+          <div class="btn-container">
+            <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>
+          </div>
+          <p class=" text-container center white-text">O ingresar con</p>
+          <div class="center">
+            <a id="btn-facebook" class="waves-effect waves-light btn social facebook btn-facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a id="btn-google" class="waves-effect waves-light btn social google btn-google">
+              <i class="fa fa-google"></i>
+            </a>
+          </div>
+          <p class="text-container white-text center">¿Aún no tienes cuenta?
+            <a id="go-signup" class="white-text" style="text-decoration:underline">Únete ahora</a>
+          </p>
+          <h6 id="restriction" class=" modal-trigger center white-text" href="#modal1">Lo que debes saber</h6>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h5>Hola!</h5>
+              <p>Debes tener presente que el registro de Parenthook por 3 meses será abierto al público, luego de este periodo,
+                añadiremos un filtro de admisión/permanencia para salvaguardar que el tráfico de información compartida sea
+                sólo de padres y/o personas con niñxs. En Parenthook queremos asegurarnos de que encuentres datos verídicos
+                y evitar que accedas a información lucrativa.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <div class="error-label">
@@ -91,6 +91,7 @@
     <p id="btn-publish"></p>
     <p id="save-post"></p>
     <p id="post-container"></p>
+    <p id="btn-delete-post"></p>
   </div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
