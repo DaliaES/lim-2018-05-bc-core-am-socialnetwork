@@ -58,6 +58,7 @@ form .input-field label,form .input-field input{
 }
 .home{
   background-color:#FFE9C8;
+  width: 100%;
 }
 .nav-wrapper{
   background-color: white;
