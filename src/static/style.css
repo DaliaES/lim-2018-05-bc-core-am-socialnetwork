@@ -52,6 +52,13 @@ form .input-field label,form .input-field input{
   transition-duration: 0.4s;
   cursor: pointer;
 }
+.tittle{
+ margin-left: 5%;
+ color:#604020;
+ font-size: 10vw;
+ font-family: Candara;
+ letter-spacing: -4px;
+}
 /* Pagina home */
 .logo-desk{
   display: none;
@@ -113,15 +120,10 @@ nav i.material-icons, nav i{
   background: rgb(238, 142, 32);
   color: black
 }
-.textarea {
-  width: 20%;
-}
-.shown{
-  display: block;
-}
 .error-label{
   display: none;
 }
+/* textara de post */
 i.material-icons.prefix.icon-user{
   font-size: 500%;
   line-height: 0.6;
@@ -138,13 +140,31 @@ textarea.materialize-textarea {
   padding-left: 5%;
   height: 55px;  
 }
-.post-options{
-  float: right;
-}
 select{
   background-color: transparent;
-  width: 18%;
+  width: 100px;
   border: 0px
+}
+.user-name-post {
+  margin-bottom: 15px;
+}
+.user-name-post a, .post-options a{
+color: #1a140d
+}
+.user-name-post i{
+  line-height: 40px;
+}
+.post-user{
+  background-color: white;
+  height: 80px;
+}
+.post-options a{
+  margin-right: 5px;
+}
+.posted-text{
+  padding-left: 10px;
+  padding-top: 10px;
+ border-color: white;
 }
 /* menu desplegable */
 .user-pic{
@@ -172,24 +192,36 @@ select{
 .row{
   margin-bottom: 0px
 } 
- /* .texto{
+ .texto{
    float: right;
-   border: 2px solid rgba(207, 198, 73, 0.863);
-   background-color: rgba(207, 198, 73, 0.863);
+   padding-left: 113px;
+   padding-right: 113px;
+   background-color:#f8dcb1;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
    opacity: 0.6;
-   border-radius: 7%;
-   padding: 0.2em 0.2em;
+   border-radius: 15%;
+   /* padding: 0.2em 0.2em; */
    text-align: center;
-   margin-top: 400px;
-   margin-right: 150px;
- } */
+   margin-top: 540px;
+   margin-right: 270px;
+ }
 .container-form{
   box-shadow: inset 3px 5px 20px 5px #915933;
 }
 form .input-field i.white-text{
-    color: #7c6043 !important;
+  color: #7c6043 !important;
   }
 form .input-field label.white-text,form .input-field input.white-text, form p.white-text,form p a.white-text,form h6.white-text{
   color: #331a00 !important;
 }
+.tittle{
+  display: none;
+}
+.style-form{
+  margin-top:5%;
+ }
+.logo{
+ width: 17%
+ }
 }

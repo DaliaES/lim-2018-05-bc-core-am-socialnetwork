@@ -39,13 +39,13 @@ const createcontainerPost = (newPost) => {
 	const postContainer = document.getElementById("post-container")
 	containerpub = `
     <div id="${newPost.key}">
-      <div class="input-field">
-        <p><i class="material-icons prefix">account_circle</i>${newPost.val().name}</p>
+      <div class="user-name-post">
+       <i class="material-icons prefix">account_circle</i> <a>${newPost.val().name}</a>
       </div>
       <div class="post-user">
-        <p>${newPost.val().post}</p>
-        <div class="post-options">
-          <div>${newPost.val().likeCount}</div>
+        <textarea class="posted-text">${newPost.val().post}</textarea>
+        <div class="post-options right ">
+          <a>${newPost.val().likeCount}</a>
           <i class="material-icons prefix button-link" data-id="${newPost.key}" data-value="${newPost.val().post}" 
           data-poststate="${newPost.val().postState}" data-link="${newPost.val().likeCount}">thumb_up</i>
           <a class="modal-delete modal-trigger" data-id="${newPost.key}" href="#modaldelete">Eliminar</a>
@@ -98,7 +98,7 @@ btnPublish.addEventListener('click', event => {
     window.location.reload = 'main.html'
     postArea.value = ''
   } else {
-    alert('escribe algo')
+    alert('Esta publicación no tiene contenido')
   }
 })
 // agregar evento a boton guardar despues de editar post
