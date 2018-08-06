@@ -123,8 +123,7 @@ const createPost = (postText, State, id = 0, likeCount = 0) => {
 }
 // funcion para mostrar posts
 window.timelinePost = () => {
-  const user = firebase.auth().currentUser
-    console.log(user)
+  // const user = firebase.auth().currentUser
     firebase.database().ref('posts')
     .on('child_added', (createdPost) => {
       createcontainerPost(createdPost)
@@ -142,3 +141,14 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id)
   post.remove()
 }
+const stateUser = ()=>{
+  let userid = firebase.auth().currentUser.uid
+  console.log(userid)
+  // console.log('hol')
+// let postid = firebase.database.ref('posts/' + id)
+// if (userid===postid.id)
+// console.log(postid)
+}
+const stateOption = document.getElementById("select-state")
+let velueSelectState = stateOption.value
+velueSelectState.addEventListener('change',e =>{stateUser()})
