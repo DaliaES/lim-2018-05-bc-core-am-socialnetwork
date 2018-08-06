@@ -52,6 +52,17 @@ form .input-field label,form .input-field input{
   transition-duration: 0.4s;
   cursor: pointer;
 }
+.style-form{
+ margin-top:45%;
+}
+.tittle{
+ margin-left: 5%;
+ margin-top: 9%;
+ color:#604020;
+ font-size: 10vw;
+ font-family: Candara;
+ letter-spacing: -4px;
+}
 /* Pagina home */
 .logo-desk{
   display: none;
@@ -171,24 +182,34 @@ select{
 .row{
   margin-bottom: 0px
 } 
- /* .texto{
+ .texto{
    float: right;
-   border: 2px solid rgba(207, 198, 73, 0.863);
-   background-color: rgba(207, 198, 73, 0.863);
+   padding-left: 113px;
+   padding-right: 113px;
+   background-color:#f8dcb1;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
    opacity: 0.6;
-   border-radius: 7%;
-   padding: 0.2em 0.2em;
+   border-radius: 15%;
+   /* padding: 0.2em 0.2em; */
    text-align: center;
-   margin-top: 400px;
-   margin-right: 150px;
- } */
+   margin-top: 540px;
+   margin-right: 270px;
+ }
 .container-form{
   box-shadow: inset 3px 5px 20px 5px #915933;
 }
 form .input-field i.white-text{
-    color: #7c6043 !important;
+  color: #7c6043 !important;
   }
 form .input-field label.white-text,form .input-field input.white-text, form p.white-text,form p a.white-text,form h6.white-text{
   color: #331a00 !important;
 }
+.tittle{
+  display: none;
+}
+.style-form{
+  margin-top:5%;
+ }
+
 }
