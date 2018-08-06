@@ -141,13 +141,14 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id)
   post.remove()
 }
-const stateUser = (id)=>{
-  // let userid = firebase.auth().currentUser.uid
-  // console.log(userid)
-  console.log('hol')
+const stateUser = ()=>{
+  let userid = firebase.auth().currentUser.uid
+  console.log(userid)
+  // console.log('hol')
 // let postid = firebase.database.ref('posts/' + id)
 // if (userid===postid.id)
 // console.log(postid)
 }
-const stateOption = document.getElementById("select-state").value
-stateOption.addEventListener('change',e =>{stateUser()})
+const stateOption = document.getElementById("select-state")
+let velueSelectState = stateOption.value
+velueSelectState.addEventListener('change',e =>{stateUser()})
