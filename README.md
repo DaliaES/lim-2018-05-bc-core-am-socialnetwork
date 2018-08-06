@@ -143,7 +143,7 @@ CON INTERFACE IMPLEMENTADA
 
 ## Anexos
 
-***1.RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS***
+***1. RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS***
 
 __Muestra = 10 mamás con hijos entre 0 y 4 años__
 
@@ -153,14 +153,14 @@ __Muestra = 10 mamás con hijos entre 0 y 4 años__
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png" alt="encuesta3" border="0"></p>  
 
-***2.RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS***
+***2. RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS***
 
 Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años, se puede concluir que:
 
-* el 75% de las madres entrevistadas recurre a internet cuando tienen alguna duda acerca de las categorías mencionadas respecto a sus hijxs.
-* el 100% de las madres comparte datos con otros padres y les gusta encontrar información de otros padres online.
-* el 25% de las madres entrevistadas prefiere recurrir a otras fuentes como la OMS, UNICEF, entre otros.
-* el 80% cree que otro papá o mamá puede dar mejores consejos que uno que no lo es.
-* el 50% toma decisiones de acuerdo a la información encontrada en comunidades o foros.
+> el 75% de las madres entrevistadas recurre a internet cuando tienen alguna duda acerca de las categorías mencionadas respecto a sus hijxs.
+> el 100% de las madres comparte datos con otros padres y les gusta encontrar información de otros padres online.
+> el 25% de las madres entrevistadas prefiere recurrir a otras fuentes como la OMS, UNICEF, entre otros.
+> el 80% cree que otro papá o mamá puede dar mejores consejos que uno que no lo es.
+> el 50% toma decisiones de acuerdo a la información encontrada en comunidades o foros.
 
 [AUDIOS DE ENTREVISTAS AQUÍ](https://drive.google.com/open?id=14-U-brk3cKIHu3FaF_tfrJ5wTddGhY5x)
