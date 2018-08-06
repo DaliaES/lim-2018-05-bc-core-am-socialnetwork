@@ -75,20 +75,20 @@
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/materialize.png" alt="materialize" border="0"></p>     
 
-PALETA DE COLORES
+## Paleta de colores
 
 *La paleta de colores con la que se trabajó fue en su mayoría de colores tierra. Se utilizó la herramienta online* ***Coolors***
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/paleta.png" alt="paleta" border="0"></p>  
 
-IMAGOTIPO
+## Imagotipo
 
 *Contamos con dos piezas gráficas, una para la documentación que es el que aparece al principio de este `README.md` y otra que utilizamos en la app:*
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/imagotipo.png" alt="imagotipo" border="0"></p>  
 
 
-PROTOTIPO DE BAJA FIDELIDAD
+## Prototipo de Baja fidelidad
 
 ***DESKTOP***
 
@@ -99,16 +99,34 @@ PROTOTIPO DE BAJA FIDELIDAD
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/bajafidelidad.jpg" alt="bajafidelidad" border="0"></p>  
 
 
-PROTOTIPO DE ALTA FIDELIDAD 
+## Prototipo de Alta fidelidad
 
 *Para llevar acabo nuestro prototipo de alta fidelidad utilizamos* ***Figma*** *como herramienta de diseño*
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/prototipo.png" alt="prototipo" border="0"></p>  
 
+## Testing
+
+CON PROTOTIPO
+
+* *Cuando testeamos el prototipo, la primera impresión fue que eran muy oscuros los colores del muro, por eso decidimos cambia de marrón a naranja pastel*
+
+* *Así mismo, nos recomendaron poner el nombre "Parenthook" más grande en la sección del login y registro , para la vista mobile.*
+
+* *En cuanto a la vista desktop, nos dieron el feedback de dividir en dos el login (imagen y formulario) para que se vea más interactiva.*
+
+CON INTERFACE IMPLEMENTADA
+
+* *De acuerdo al contenido, varixs usuarixs manifestaron que les gustaría encontrar la información de las categorías de forma ordenada, ya que sino se parecería a Facebook donde tienen que encontrar la información mediante hashtags ya que todo se encuentra mezclado. Es por esto que implementamos un segundo nav bar donde se encuentren los posts por categoría.*
+
+* *Siguiendo en la línea de practicidad que es lo que busca nuestro público objetivo, también mencionaron que es importante recalcar en algunas categorías como "Salud" que la información o dato recavado sea corroborada por un especialista de forma personal ya que se entiende que la interacción será mediante padres o madres. Es por esto que se implementó un mensaje antes de entrar a la categoría Salud*
+
+* *Además persona que ya tenían experiencia tomando datos de personal de apoyo en casa, nos dijeron que es vital poner un aviso donde se informe que no está permitido empresas o personas que se dediquen a la colocación de personal ya que va en contra de lo que ellos buscan que es el boca a boca.*
+
 
 ## Organización del equipo de trabajo ↗
 
-DESIGN THINKING
+***DESIGN THINKING***
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/design-thinking.png" alt="design-thinking" border="0"></p>  
 
@@ -116,16 +134,16 @@ TRELLO
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/trello.png" alt="trello" border="0"></p>  
 
-PRODUCT BACKLOG
+***PRODUCT BACKLOG***
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/backlog.jpg" alt="backlog" border="0"></p>  
 
 
 ## Anexos
 
-1.RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS
+***1.RECOPILACIÓN DE INFORMACIÓN CUANTITATIVA - ENCUESTAS***
 
-Muestra = 10 mamás con hijos entre 0 y 4 años
+__Muestra = 10 mamás con hijos entre 0 y 4 años__
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta1.png" alt="encuesta1" border="0"></p>  
 
@@ -133,7 +151,7 @@ Muestra = 10 mamás con hijos entre 0 y 4 años
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/encuesta3.png" alt="encuesta3" border="0"></p>  
 
-2.RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS 
+***2.RECOPILACIÓN DE INFORMACIÓN CUALITATIVA - ENTREVISTAS***
 
 Se entrevistó a 4 madres con hijos entre los 6 meses y 5 años, se puede concluir que:
 
