@@ -92,7 +92,6 @@ const postArea = document.getElementById("post-action")
 const selectState = document.getElementById("select-state")
 // agregar evento a publicar post
 btnPublish.addEventListener('click', event => {
-  console.log(postArea.value)
   if (postArea.value !== '') {
     createPost(postArea.value, selectState.value)
     window.location.reload = 'main.html'
@@ -101,6 +100,10 @@ btnPublish.addEventListener('click', event => {
     alert('Esta publicación no tiene contenido')
   }
 })
+// evento para funcion de privacidd
+let valueState= selectState.value
+selectState.addEventListener('change',console.log('hola'))
+
 // agregar evento a boton guardar despues de editar post
 const saveButton = document.getElementById("save-post")
 saveButton.addEventListener('click', event => {

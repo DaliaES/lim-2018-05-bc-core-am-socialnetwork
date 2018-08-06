@@ -190,14 +190,14 @@ color: #1a140d
   background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh !important;
  }
  .logo-desk{
   display: block;
   margin-top: 30px;
 }
 .container-form{
-  height:100vh;
+  min-height:100vh !important;
 }
 .row{
   margin-bottom: 0px
