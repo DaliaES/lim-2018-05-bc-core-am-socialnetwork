@@ -12,22 +12,85 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="../static/framework/css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
-  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-database.js"></script>
 </head>
 
 <body class="home">
-  <nav class="container-logo">
-    <a href="#" data-target="slide-out" class="sidenav-trigger ">
-      <i class="material-icons  menu-icon">menu</i>
-    </a>
-    <div class="input-field">
-      <i class="material-icons prefix">search</i>
-      <input type="search" value="Buscar">
+  <div class="row">
+  <div class=" col l8 push-l2 navbar-fixed">
+    <nav class="nav-extended ">
+      <div class="nav-wrapper col l10">
+        <img class="logo brand-logo right col" src="https://preview.ibb.co/cy08GK/logoparenthookwall.png">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons  menu-icon">menu</i>
+        </a>
+        <!-- <ul id="nav-mobile" class="left"> -->
+        <div class=" col m6 push-m2 l4 push-l1 input-field left">
+          <i class="material-icons prefix">search</i>
+          <input type="search">
+        </div>
+        <!-- </ul> -->
+      </div>
+      <div class="nav-content col l10">
+        <ul class="tabs">
+          <li class="tab col s4 l2">
+            <a class=" modal-trigger center black-text" href="#modal1">
+              <i class="material-icons">local_hospital</i> SALUD</a>
+          </li>
+          <li class="tab col s5 l2">
+            <a class="black-text" href="#">
+              <i class="material-icons tab-icon">school</i> EDUCACIÓN</a>
+          </li>
+          <li class="tab col s6 l2">
+            <a class=" modal-trigger center black-text" href="#modal2">
+              <i class="material-icons">home</i>APOYO EN CASA</a>
+          </li>
+          <li class="tab col s4 l2">
+            <a class="black-text" href="#">
+              <i class="material-icons">child_care </i> CRIANZA</a>
+          </li>
+          <li class="tab col s5 l2">
+            <a class="black-text" href="#">
+              <i class="material-icons">restaurant</i> ALIMENTACIÓN</a>
+          </li>
+          <li class="tab col s4 l2">
+            <a class="black-text" href="#">
+              <i class="material-icons">child_friendly</i> OTROS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h5>Para tener en cuenta...</h5>
+        <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
     </div>
-    <img class="logo" src="https://image.ibb.co/ncOZ68/logomod2.png">
-  </nav>
-  <div>
-    <ul id="slide-out" class="sidenav sidenav-fixed">
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h5>Para tener en cuenta...</h5>
+        <ol>
+          <li class="black-text">En caso de recomendaciones de personal, debes recomendar únicamente a empleadas y nanas que conozcas, que hayan
+            trabajado contigo o con amigxs o familiares.</li>
+          <li class="black-text">Ninguna agencia de empleos, ni personas que colocan personal está permitida, en caso las identifiquen por favor
+            reportarlas.
+          </li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="">
+    <ul id="mobile-demo" class="sidenav sidenav-fixed">
       <li>
         <div class="user-view">
           <div class="background">
@@ -72,23 +135,55 @@
       </li>
     </ul>
   </div>
-  <section>
-
-    <div class="input-field">
+<div class="col s12 m8 push-m2 l8 push-l3">
+  <section class="timeline-body">
+    <div class=" col l10 push-l1 input-field">
       <i class="material-icons prefix icon-user">account_circle</i>
       <div class="container-text">
-        <textarea class="materialize-textarea" placeholder="Comparte o pregunta" id="post-action"></textarea>
+        <textarea class="materialize-textarea" placeholder="Comparte o pregunta..." id="post-action"></textarea>
       </div>
+      <div class="col s8 push-s4 l6 push-l5 ">
       <a class="waves-effect waves-light btn-small" id="btn-publish">Publicar</a>
-      <select class="browser-default" id="select-state">
-        <option value="" disabled selected>Estado</option>
-        <option value="Publico">Publico</option>
+      <select class="browser-default right" id="select-state">
+        <option value="" disabled selected>Privacidad</option>
+        <option value="Publico">Público</option>
         <option value="Privado">Privado</option>
       </select>
     </div>
-    <div id="post-container">
     </div>
+    <div class= "col s12 l9 push-l2"id="post-container">
+    </div>
+      <div id="modaledit" class="modal">
+        <div class="modal-content">
+          <div class="input-field">
+            <i class="material-icons prefix icon-user">account_circle</i>
+            <div class="container-text">
+              <textarea id="edit-text" class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <select class="browser-default" id="edit-state">
+            <option value="" disabled selected>Privacidad</option>
+            <option value="Publico">Público</option>
+            <option value="Privado">Privado</option>
+          </select>
+          <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+        </div>
+      </div>
+      <div id="modaldelete" class="modal">
+          <div class="modal-content">
+              <h5>Eliminar Publicación</h5>
+              <p>Esta publicación será eliminada.Si solo desea hacer algun cambio puede también editar </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" data-id="" data-value="" id="btn-delete-post" class="modal-close waves-effect waves-green btn-flat">Eliminar</a>
+            <a href="#!" data-id="" data-value="" id="btn-cancel-delete" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+          </div>
+        </div>
   </section>
+</div>
+</div>
   <div class="error-label">
     <p id="btn-login"></p>
     <p id="go-signup"></p>
@@ -99,9 +194,9 @@
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>
-  <script src="../static/login.js"></script>
-  <script src="../static/main.js"></script>
   <script src="../static/estilos.js"></script>
+  <script src="../static/socialnet.js"></script>
+  <script src="../static/main.js"></script>
 </body>
 
 </html>

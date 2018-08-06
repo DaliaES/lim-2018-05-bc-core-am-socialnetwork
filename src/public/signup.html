@@ -12,44 +12,65 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="../static/framework/css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" type="text/css" media="screen" href="../static/style.css" />
-  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-database.js"></script>
 </head>
 
 <body class="back-img">
-  <form  id="signup-form" class="style-form">
-    <div>
-      <div>
-          <i class="material-icons  log-icon">perm_identity</i>
-        <label class="text-label" for="id-name">Nombre</label>
+  <div class="row">
+    <div class="col s0 m6 l8 description-tab">
+      <!-- <img src="https://preview.ibb.co/doWzMK/portada2.jpg" alt=""> -->
+      <!-- <div class="texto">
+          <p>Bienvenid@ a la red de padres más informada en Perú</p>
+          <p>Crianza</p>
+          <p>Alimentación</p>
+          <p>y más</p>
+        </div> -->
+    </div>
+    <div class="container-form col s10 push-s1 m6  l4">
+      <div class="logo-desk col m8 push-m2">
+        <img class="responsive-img" src="https://preview.ibb.co/cy08GK/logoparenthookwall.png">
       </div>
-      <input type="text" id="id-name" class="text-input">
-    </div>
-    <div>
-      <div>
-        <i class="material-icons  log-icon">email</i>
-        <label class="text-label" for="email-sign">Email</label>
+      <div class="col m10 push-m1">
+        <form id="signup-form" class="style-form">
+          <div class=" section input-field ">
+            <i class="material-icons prefix white-text ">perm_identity</i>
+            <input id="id-name" type="text" class=" white-text ">
+            <label for="id-name" class="white-text">Nombre</label>
+          </div>
+          <div class=" section input-field ">
+            <i class="material-icons prefix white-text ">email</i>
+            <input id="email-sign" type="email" class=" white-text ">
+            <label for="email-sign" class="white-text">E-mail</label>
+          </div>
+          <div class=" section input-field ">
+            <i class="material-icons prefix white-text">lock</i>
+            <input id="password-sign" type="password" class=" white-text ">
+            <label for="password-sign" class="white-text">Contraseña</label>
+          </div>
+          <div class="btn-container">
+            <a class="waves-effect waves-light btn-small btn-style" id="btn-signup">Registrarme</a>
+          </div>
+        </form>
       </div>
-      <input type="email" id="email-sign" class="text-input">
     </div>
-    <div>
-      <div>
-        <i class="material-icons log-icon">lock</i>
-        <label class="text-label" for="password-sign">Contraseña</label>
-      </div>
-      <input type="password" id="password-sign" class="text-input">
-    </div>
-    <div class="btn-container">
-      <a class="waves-effect waves-light btn-small btn-style" id="btn-signup">Registrarme</a>
-    </div>
-  </form>
+  </div>
   <div class="error-label">
-  <p id="btn-login"></p>
-  <p id="go-signup"></p>
-</div>
+    <p id="btn-login"></p>
+    <p id="go-signup"></p>
+    <p id="btn-google"></p>
+    <p id="btn-facebook"></p>
+    <p id="btn-logout"></p>
+    <p id="btn-publish"></p>
+    <p id="save-post"></p>
+    <p id="post-container"></p>
+  </div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>
-  <script src="../static/login.js"></script>
+  <script src="../static/socialnet.js"></script>
+  <script src="../static/main.js"></script>
 </body>
 
 </html>

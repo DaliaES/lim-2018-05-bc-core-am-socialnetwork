@@ -1,35 +1,24 @@
 /* Pagina de login y registro */
+html, body{
+  height: 100%;
+}
 .back-img{
   background-image:url("https://image.ibb.co/ct1Wio/fondo_log.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.style-form{
-  width:80%;
-  margin: auto;
-  padding-top: 60%;
+.description-tab{
+  display: none;
 }
-.log-icon{
-  color: rgba(255, 255, 255, 0.774);
-  float:left;
-  margin-right: 3%;
-}
-.text-label{
-  font-size: 15px;
-  color: white;
+/* .container-form{
+  } */
+form .input-field label,form .input-field input{
   font-weight: lighter;
-  letter-spacing: 0.07em;
-}
-.text-input{
-  color: white;
-  font-weight: lighter;
-  letter-spacing: 0.07em;
-}
-.btn-container{
-  padding-top: 10%; 
+  letter-spacing: 0.08em;
+  font-size: 16px;
 }
 .btn-style{
-  color: #331a00;
+  color: #1a140d;
   font-weight: bolder;
   font-size: 16px;
   letter-spacing: 0.06em;
@@ -38,68 +27,78 @@
   border-radius: 100px;
   padding-top:5px;
   height: 45px;
-  width: 150px;
+  width: 50%;
   display: block;
   margin:auto;
+  cursor: pointer;
 }
 /* Registro con google y facebook */
 .text-container{
-  color: white;
-  text-decoration: underline;
-  font-size: 130%;
-  padding-top: 5%;
-  text-align: center;
-  list-style: none;
-  letter-spacing: 0.04em;
+  font-size: 18px;
+  letter-spacing: 0.07em;
 }
-.container-social-btn{
-  padding-top: 8%;
-  text-align: center;
+.btn-facebook,.btn-google{
+  margin-right: 2%;
+  cursor: pointer;
 }
 .btn-facebook{
  background-color: #3b5999;
- margin-right: 2%;
 }
 .btn-google{
- background-color: #dd4b39;
- margin-left: 2%;
+ background-color: #d14836;
 }
 .btn-style:hover{
   background-color: #996600;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+.tittle{
+ margin-left: 5%;
+ color:#604020;
+ font-size: 10vw;
+ font-family: Candara;
+ letter-spacing: -4px;
+}
 /* Pagina home */
+.logo-desk{
+  display: none;
+}
 .home{
   background-color:#FFE9C8;
+  width: 100%;
 }
-.container-logo{
+.nav-wrapper{
   background-color: white;
   border-bottom: 0.2px solid  #d9b38c;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
- display:inline-flex;
 }
- .container-logo:hover{
+.nav-wrapper:hover{
   border-bottom: 1px solid  #392613;
  }
-.container-logo .input-field {
-  width: 80%;
+ .nav-wrapper .input-field {
+  width: 45%;
 }
-.container-logo .input-field i {
-  color: rgb(175, 15, 42);
+.nav-wrapper .input-field i {
+  color: #604020;
   line-height: 43px;
 }
-.input-field input[type=search]{
-  width: 87%;
-  margin-left: 23%;
+nav i.material-icons, nav i{
+  line-height: 40px;
 }
-
+.nav-wrapper .input-field input[type=search]{
+  width: 80%;
+  margin-left: 20%;
+  padding-left: 0%;
+  height: 3rem;
+  border-bottom: 1px solid #9e9e9e;
+}
+.timeline-body{
+  margin-top: 70px;
+}
 .logo{
-  width: 27%;
-  height: 99%;
-  margin-left: 15%
+  width: 25%;
+  height: 85%;
 }
-
 .sidenav-trigger{
   display: block;
   float: left;
@@ -110,15 +109,21 @@
   font-size: 35px;
   color: #604020;
 }
-.textarea {
-  width: 20%;
+.tabs{
+  background-color: #FFA133;
+  margin-top: -4.5px;
 }
-.shown{
-  display: block;
+.tabs .indicator {
+  background: #392613;
+} 
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: rgb(238, 142, 32);
+  color: black
 }
 .error-label{
   display: none;
 }
+/* textara de post */
 i.material-icons.prefix.icon-user{
   font-size: 500%;
   line-height: 0.6;
@@ -135,16 +140,88 @@ textarea.materialize-textarea {
   padding-left: 5%;
   height: 55px;  
 }
-.post-options{
-  float: right;
-}
 select{
   background-color: transparent;
-  width: 18%;
+  width: 100px;
   border: 0px
+}
+.user-name-post {
+  margin-bottom: 15px;
+}
+.user-name-post a, .post-options a{
+color: #1a140d
+}
+.user-name-post i{
+  line-height: 40px;
+}
+.post-user{
+  background-color: white;
+  height: 80px;
+}
+.post-options a{
+  margin-right: 5px;
+}
+.posted-text{
+  padding-left: 10px;
+  padding-top: 10px;
+ border-color: white;
 }
 /* menu desplegable */
 .user-pic{
   background-repeat: no-repeat;
   background-size: 100%; 
+}
+@media screen and (min-width:600px){
+.back-img{
+  background-image: none;
+}
+.description-tab{
+  display: block;
+  background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ }
+ .logo-desk{
+  display: block;
+  margin-top: 30px;
+}
+.container-form{
+  height:100vh;
+}
+.row{
+  margin-bottom: 0px
+} 
+ .texto{
+   float: right;
+   padding-left: 113px;
+   padding-right: 113px;
+   background-color:#f8dcb1;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   opacity: 0.6;
+   border-radius: 15%;
+   /* padding: 0.2em 0.2em; */
+   text-align: center;
+   margin-top: 540px;
+   margin-right: 270px;
+ }
+.container-form{
+  box-shadow: inset 3px 5px 20px 5px #915933;
+}
+form .input-field i.white-text{
+  color: #7c6043 !important;
+  }
+form .input-field label.white-text,form .input-field input.white-text, form p.white-text,form p a.white-text,form h6.white-text{
+  color: #331a00 !important;
+}
+.tittle{
+  display: none;
+}
+.style-form{
+  margin-top:5%;
+ }
+.logo{
+ width: 17%
+ }
 }
