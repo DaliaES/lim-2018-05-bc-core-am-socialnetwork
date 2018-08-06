@@ -149,6 +149,3 @@ const stateUser = ()=>{
 // if (userid===postid.id)
 // console.log(postid)
 }
-const stateOption = document.getElementById("select-state")
-let velueSelectState = stateOption.value
-velueSelectState.addEventListener('change',e =>{stateUser()})
