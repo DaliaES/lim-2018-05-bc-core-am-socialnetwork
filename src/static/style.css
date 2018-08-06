@@ -52,12 +52,8 @@ form .input-field label,form .input-field input{
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.style-form{
- margin-top:45%;
-}
 .tittle{
  margin-left: 5%;
- margin-top: 9%;
  color:#604020;
  font-size: 10vw;
  font-family: Candara;
@@ -69,6 +65,7 @@ form .input-field label,form .input-field input{
 }
 .home{
   background-color:#FFE9C8;
+  width: 100%;
 }
 .nav-wrapper{
   background-color: white;
@@ -123,15 +120,10 @@ nav i.material-icons, nav i{
   background: rgb(238, 142, 32);
   color: black
 }
-.textarea {
-  width: 20%;
-}
-.shown{
-  display: block;
-}
 .error-label{
   display: none;
 }
+/* textara de post */
 i.material-icons.prefix.icon-user{
   font-size: 500%;
   line-height: 0.6;
@@ -148,13 +140,31 @@ textarea.materialize-textarea {
   padding-left: 5%;
   height: 55px;  
 }
-.post-options{
-  float: right;
-}
 select{
   background-color: transparent;
-  width: 18%;
+  width: 100px;
   border: 0px
+}
+.user-name-post {
+  margin-bottom: 15px;
+}
+.user-name-post a, .post-options a{
+color: #1a140d
+}
+.user-name-post i{
+  line-height: 40px;
+}
+.post-user{
+  background-color: white;
+  height: 80px;
+}
+.post-options a{
+  margin-right: 5px;
+}
+.posted-text{
+  padding-left: 10px;
+  padding-top: 10px;
+ border-color: white;
 }
 /* menu desplegable */
 .user-pic{
@@ -211,5 +221,7 @@ form .input-field label.white-text,form .input-field input.white-text, form p.wh
 .style-form{
   margin-top:5%;
  }
-
+.logo{
+ width: 17%
+ }
 }
