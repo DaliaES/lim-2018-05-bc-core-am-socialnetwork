@@ -20,7 +20,7 @@ window.onload = () => {
         picProfile.style.backgroundImage = "url(https://image.ibb.co/h7ehKT/baseline_account_circle_black_48dp.png)";
       }
       addUserDataB(user.uid, user.displayName, user.email, user.photoURL)
-      timelinePost()
+      // timelinePost()
     } else {
       console.log('no esta logueado')
     }
@@ -121,19 +121,27 @@ const createPost = (postText, State, id = 0, likeCount = 0) => {
   let sharePost = {};
   sharePost['/posts/' + newPostKey] = postInfo;
   return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
+  timelinePost()
 }
 // funcion para mostrar posts
 window.timelinePost = () => {
   // const user = firebase.auth().currentUser
     firebase.database().ref('posts')
     .on('child_added', (createdPost) => {
-      createcontainerPost(createdPost)
+      createcontainerPost(createdPost)   
     }) 
 }
 // funcion para contar likes
-const counterLike = (postText,postState, id,likes) => {
+const counterLike = (likes) => {
   let likeCount = parseInt(likes)
-  let totalLikes = likeCount + 1
+  let totalLikes = likeCount + 1  
+    // firebase.database().ref('posts')
+    // .on('value', function(snapshot) {
+    //   snapshot.forEach(function(childSnapshot) {
+    //     var childData = childSnapshot.val().likeCount;
+    //     childData = totalLikes
+    //     console.log(childData.likeCount)
+    //   })})
   createPost(postText, postState,id,totalLikes)
   window.location.reload(true)
 }
@@ -142,11 +150,5 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id)
   post.remove()
 }
-const stateUser = ()=>{
-  let userid = firebase.auth().currentUser.uid
-  console.log(userid)
-  // console.log('hol')
-// let postid = firebase.database.ref('posts/' + id)
-// if (userid===postid.id)
-// console.log(postid)
-}
+
+

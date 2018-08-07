@@ -100,9 +100,17 @@ btnPublish.addEventListener('click', event => {
     alert('Esta publicación no tiene contenido')
   }
 })
+// btnPublish.addEventListener('click',()=>{
+//   firebase.database().ref('posts').on('value', function(snapshot) {
+//     snapshot.forEach(function(childSnapshot) {
+//       var childKey = childSnapshot.key;
+//       var childData = childSnapshot.val();
+//       console.log(childData.likeCount)
+//     })})
+// })
 // evento para funcion de privacidd
-let valueState= selectState.value
-selectState.addEventListener('change',console.log('hola'))
+// let valueState= selectState.value
+// selectState.addEventListener('change',console.log('hola'))
 
 // agregar evento a boton guardar despues de editar post
 const saveButton = document.getElementById("save-post")
