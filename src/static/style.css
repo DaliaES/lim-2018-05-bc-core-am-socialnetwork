@@ -92,8 +92,11 @@ nav i.material-icons, nav i{
   height: 3rem;
   border-bottom: 1px solid #9e9e9e;
 }
+.row .col{
+  padding: 0;
+}
 .timeline-body{
-  margin-top: 70px;
+  margin-top: 140px;
 }
 .logo{
   width: 25%;
@@ -169,7 +172,14 @@ color: #1a140d
 /* menu desplegable */
 .user-pic{
   background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: 100%;  
+}
+
+.button-link{
+  cursor: pointer;
+}
+.button-link{
+  cursor: pointer
 }
 @media screen and (min-width:600px){
 .back-img{
@@ -180,14 +190,14 @@ color: #1a140d
   background-image:url("https://preview.ibb.co/doWzMK/portada2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh !important;
  }
  .logo-desk{
   display: block;
   margin-top: 30px;
 }
 .container-form{
-  height:100vh;
+  min-height:100vh !important;
 }
 .row{
   margin-bottom: 0px
@@ -224,4 +234,9 @@ form .input-field label.white-text,form .input-field input.white-text, form p.wh
 .logo{
  width: 17%
  }
+}
+@media screen and (min-width:600px){
+  .row .col{
+    padding-left: 1rem;
+  }
 }
