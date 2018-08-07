@@ -33,13 +33,14 @@ btnFacebook.addEventListener('click', e => {
 btnLogout.addEventListener('click', e => {
 	logout()
 })
+const postContainer = document.getElementById("post-container")
 // funcion para crear contenedores del post
 const createcontainerPost = (newPost) => {
-	console.log(newPost.toJSON()	)
-	let idUser = firebase.auth().currentUser.uid;
+	// console.log(newPost.toJSON()	)
+	// let idUser = firebase.auth().currentUser.uid;
 	let containerpub = ''
-	const postContainer = document.getElementById("post-container")
-	if (idUser === newPost.val().id) {
+
+	if (newPost.val().postState === 'Publico') {
 		containerpub = `
     <div id="${newPost.key}">
       <div class="user-name-post">
@@ -90,24 +91,79 @@ const createcontainerPost = (newPost) => {
 				})
 			}
 		}
-	} else if (idUser !== newPost.val().id) {
-		containerpub = `
-	<div id="${newPost.key}">
-		<div class="user-name-post">
-		 <i class="material-icons prefix">account_circle</i> <a>${newPost.val().name}</a>
-		</div>
-		<div class="post-user">
-			<textarea class="posted-text">${newPost.val().post}</textarea>
-			<div class="post-options right ">
-				<a>${newPost.val().likeCount}</a>
-				<i class="material-icons prefix button-link2" data-id="${newPost.key}" data-value="${newPost.val().post}" 
-				data-poststate="${newPost.val().postState}" data-link="${newPost.val().likeCount}">thumb_up</i>
-			</div>
-		</div>
-	</div>
- `
-		postContainer.innerHTML = containerpub + postContainer.innerHTML
-		const postLike2 = document.getElementsByClassName("button-link2")
+	}
+// 	} else if (idUser !== newPost.val().id) {
+// 		containerpub = `
+// 	<div id="${newPost.key}">
+// 		<div class="user-name-post">
+// 		 <i class="material-icons prefix">account_circle</i> <a>${newPost.val().name}</a>
+// 		</div>
+// 		<div class="post-user">
+// 			<textarea class="posted-text">${newPost.val().post}</textarea>
+// 			<div class="post-options right ">
+// 				<a>${newPost.val().likeCount}</a>
+// 				<i class="material-icons prefix button-link2" data-id="${newPost.key}" data-value="${newPost.val().post}" 
+// 				data-poststate="${newPost.val().postState}" data-link="${newPost.val().likeCount}">thumb_up</i>
+// 			</div>
+// 		</div>
+// 	</div>
+//  `
+// 		postContainer.innerHTML = containerpub + postContainer.innerHTML
+// 		const postLike2 = document.getElementsByClassName("button-link2")
+// 		for (elem of postLike2) {
+// 			if (elem) {
+// 				elem.addEventListener('click', event => {
+// 					counterLike(event.target.dataset.value, event.target.dataset.poststate, event.target.dataset.id, event.target.dataset.link)
+// 					window.location.reload(true)
+// 				})
+// 			}
+// 		}
+// 	}
+}
+const createcontainerPostPrivado = (newPost) => {
+	let containerpub2 = ''
+	if (newPost.val().postState === 'Privado') {
+		containerpub2 = `
+    <div id="${newPost.key}">
+      <div class="user-name-post">
+       <i class="material-icons prefix">account_circle</i> <a>${newPost.val().name}</a>
+      </div>
+      <div class="post-user">
+        <textarea class="posted-text">${newPost.val().post}</textarea>
+        <div class="post-options right ">
+          <a>${newPost.val().likeCount}</a>
+          <i class="material-icons prefix button-link" data-id="${newPost.key}" data-value="${newPost.val().post}" 
+          data-poststate="${newPost.val().postState}" data-link="${newPost.val().likeCount}">thumb_up</i>
+          <a class="modal-delete modal-trigger" data-id="${newPost.key}" href="#modaldelete">Eliminar</a>
+          <a class="edit-button modal-trigger" data-id="${newPost.key}" data-value="${newPost.val().post}" href="#modaledit">Editar</a>
+        </div>
+      </div>
+    </div>
+   `
+		postContainer.innerHTML = containerpub2 + postContainer.innerHTML
+		const postDelete2 = document.getElementsByClassName("modal-delete")
+		for (elem of postDelete2) {
+			if (elem) {
+				elem.addEventListener('click', event => {
+					const idDeleteButton2 = document.getElementById("btn-delete-post")
+					idDeleteButton2.setAttribute("data-id", event.target.dataset.id)
+
+				})
+			}
+		}
+		const postEdit2 = document.getElementsByClassName("edit-button")
+		for (elem of postEdit2) {
+			if (elem) {
+				elem.addEventListener('click', event => {
+					const idEditButton2 = document.getElementById("save-post")
+					const areaText2 = document.getElementById("edit-text")
+					areaText2.innerHTML = event.target.dataset.value
+					idEditButton2.setAttribute("data-id", event.target.dataset.id)
+					idEditButton2.setAttribute("data-value", event.target.dataset.value)
+				})
+			}
+		}
+		const postLike2 = document.getElementsByClassName("button-link")
 		for (elem of postLike2) {
 			if (elem) {
 				elem.addEventListener('click', event => {
@@ -133,10 +189,20 @@ btnPublish.addEventListener('click', event => {
 })
 // evento para funcion de privacidd
 
-selectState.addEventListener('change', console.log('hola'))
-btnPublish.addEventListener('click', event => {
-	console.log(selectState.value)
-})
+// selectState.addEventListener('change', event=>{
+// 	statePost()
+// })
+// const statePost =()=>{
+// 	if (selectState.value === 'Privado'){
+// 		return true
+// 		console.log('el post es privado')
+// 	} else {
+//     return false
+// 		console.log('el post es publico')
+// 	}
+// }
+// const myProfile = document.getElementById("my-posts")
+// const saveMyPosts = ()=>{}
 // agregar evento a boton guardar despues de editar post
 const saveButton = document.getElementById("save-post")
 
