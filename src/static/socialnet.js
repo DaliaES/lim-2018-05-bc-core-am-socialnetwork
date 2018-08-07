@@ -120,7 +120,7 @@ const createPost = (postText, State, id = 0, likeCount = 0) => {
   const newPostKey = id;
   let sharePost = {};
   sharePost['/posts/' + newPostKey] = postInfo;
-  sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
+  // sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
   return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
 }
 // funcion para mostrar posts
