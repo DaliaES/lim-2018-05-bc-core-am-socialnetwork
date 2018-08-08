@@ -1,4 +1,6 @@
 describe('socialnet', () => {
 
-    
+    it ('deberia',()=>{
+        
+    })
 })

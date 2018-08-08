@@ -20,12 +20,11 @@ window.onload = () => {
         picProfile.style.backgroundImage = "url(https://image.ibb.co/h7ehKT/baseline_account_circle_black_48dp.png)";
       }
       addUserDataB(user.uid, user.displayName, user.email, user.photoURL)
-     
+      timelinePost()
     } else {
       console.log('no esta logueado')
     }
   });
-  timelinePost()
 };
 // funcion para guardar datos en database
 let addUserDataB = (id, name, email, photo) => {
@@ -35,6 +34,7 @@ let addUserDataB = (id, name, email, photo) => {
     email: email,
     profileimage: photo
   });
+  return addedUser
 }
 // funcion de logueo
 const Login =()=>{
@@ -92,6 +92,7 @@ const loginFacebook=()=>{
     .then(result => {
       window.location.href = 'main.html'
     }).catch(error => {
+      console.log(error.code,error.message)
       alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista')
     });
 }
@@ -105,14 +106,15 @@ const logout =()=>{
     });
 }
 // funcion para crear y editar post
-const createPost = (postText, State, id = 0, likeCount = 0) => {
+const createPost = (postText, State, category, id = 0) => {
   const user = firebase.auth().currentUser
   const postInfo = {
     id: user.uid,
     name: user.displayName,
     post: postText,
     postState: State,
-    likeCount: likeCount,
+    postCategory: category,
+    likeCount: 0,
   };
   if (!id) {
     id = firebase.database().ref().child('posts').push().key
@@ -120,30 +122,44 @@ const createPost = (postText, State, id = 0, likeCount = 0) => {
   const newPostKey = id;
   let sharePost = {};
   sharePost['/posts/' + newPostKey] = postInfo;
-  // sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
-  return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
+  return firebase.database().ref().update(sharePost)
 }
 // funcion para mostrar posts
-window.timelinePost = () => {
-  // const user = firebase.auth().currentUser
+const timelinePost = (category) => {
+  postContainer.innerHTML = ''
+  const user = firebase.auth().currentUser
+  // console.log(user)
     firebase.database().ref('posts')
     .on('child_added', (createdPost) => {
-      createcontainerPost(createdPost)
+      if (user.uid === createdPost.val().id && category===createdPost.val().postCategory){
+        createcontainerPost(createdPost)
+        createcontainerPostPrivado(createdPost)
+      } else if (user.uid !== createdPost.val().id && category===createdPost.val().postCategory) {
+        createcontainerPost(createdPost)
+      }
     }) 
 }
-// funcion para contar likes
-const counterLike = (postText,postState, id,likes) => {
-  let likeCount = parseInt(likes)
-  let totalLikes = likeCount + 1
-  createPost(postText, postState,id,totalLikes)
-
+//  funcion para filtrar por categoria en el html solo le cambias la funcion timelinePost()
+// por la funcion showByCategory
+// const showByCategory =(category)=>{
+//   const postRef = firebase.database().ref('posts/')
+//  postRef.orderByChild('postCategory').equalTo(category)
+//   .on('child_added', (post) => {
+//  createcontainerPost(post) + createcontainerPostPrivado(post) 
+//   })
+// }
+const counterLike = (postId)=>{
+ let postref = firebase.database().ref('posts/' + postId)
+ postref.transaction(function(post) {
+   console.log(post.likeCount)
+   if (post){
+    post.likeCount++;
+   }
+     return post  
+});
 }
 // funcion para eliminar post
 const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id)
   post.remove()
 }
-// const stateUser = ()=>{
-//   let userid = firebase.auth().currentUser.uid
-//   console.log(userid)
-// }

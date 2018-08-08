@@ -19,182 +19,182 @@
 
 <body class="home">
   <div class="row">
-  <div class=" col l8 push-l2 navbar-fixed">
-    <nav class="nav-extended ">
-      <div class="nav-wrapper col s12 l10">
-        <img class="logo brand-logo right col" src="https://preview.ibb.co/cy08GK/logoparenthookwall.png">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-          <i class="material-icons  menu-icon">menu</i>
-        </a>
-        <!-- <ul id="nav-mobile" class="left"> -->
-        <div class=" col m6 push-m2 l4 push-l1 input-field left">
-          <i class="material-icons prefix">search</i>
-          <input type="search">
+    <div class=" col l8 push-l2 navbar-fixed">
+      <nav class="nav-extended ">
+        <div class="nav-wrapper col s12 l10">
+          <img class="logo brand-logo right col" src="https://preview.ibb.co/cy08GK/logoparenthookwall.png">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons  menu-icon">menu</i>
+          </a>
+          <!-- <ul id="nav-mobile" class="left"> -->
+          <div class=" col m6 push-m2 l4 push-l1 input-field left">
+            <i class="material-icons prefix">search</i>
+            <input type="search">
+          </div>
+          <!-- </ul> -->
         </div>
-        <!-- </ul> -->
-      </div>
-      <div class="nav-content col s12 m12 l10">
-        <ul class="tabs">
-          <li class="tab col s4 l2">
-            <a class=" modal-trigger center black-text" href="#modal1">
-              <i class="material-icons">local_hospital</i> SALUD</a>
-          </li>
-          <li class="tab col s5 l2">
-            <a class="black-text" href="#">
-              <i class="material-icons tab-icon">school</i> EDUCACIÓN</a>
-          </li>
-          <li class="tab col s6 l2">
-            <a class=" modal-trigger center black-text" href="#modal2">
-              <i class="material-icons">home</i>APOYO EN CASA</a>
-          </li>
-          <li class="tab col s4 l2">
-            <a class="black-text" href="#">
-              <i class="material-icons">child_care </i> CRIANZA</a>
-          </li>
-          <li class="tab col s5 l2">
-            <a class="black-text" href="#">
-              <i class="material-icons">restaurant</i> ALIMENTACIÓN</a>
-          </li>
-          <li class="tab col s4 l2">
-            <a class="black-text" href="#">
-              <i class="material-icons">child_friendly</i> OTROS</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <h5>Para tener en cuenta...</h5>
-        <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
-      </div>
-    </div>
-
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <h5>Para tener en cuenta...</h5>
-        <ol>
-          <li class="black-text">En caso de recomendaciones de personal, debes recomendar únicamente a empleadas y nanas que conozcas, que hayan
-            trabajado contigo o con amigxs o familiares.</li>
-          <li class="black-text">Ninguna agencia de empleos, ni personas que colocan personal está permitida, en caso las identifiquen por favor
-            reportarlas.
-          </li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="">
-    <ul id="mobile-demo" class="sidenav sidenav-fixed">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <!-- <img src=""> -->
-          </div>
-          <div>
-            <!-- <a href="#user"> -->
-            <img class="circle user-pic" id="user-pic">
-            <!-- </a> -->
-          </div>
-          <div>
-            <a href="#name">
-              <span class="black-text name" id="user-name"></span>
-            </a>
-            <a href="#email">
-              <span class="black-text email" id="user-email"></span>
-            </a>
-          </div>
+        <div class="nav-content col s12 m12 l10">
+          <ul class="tabs">
+            <li class="tab col s4 l2">
+              <a class=" modal-trigger black-text" href="#modal1">
+                <i class="material-icons">local_hospital</i> SALUD</a>
+            </li>
+            <li class="tab col s5 l2">
+              <a class="black-text" href="#" onclick="timelinePost('educación')">
+                <i class="material-icons tab-icon">school</i> EDUCACIÓN</a>
+            </li>
+            <li class="tab col s6 l2">
+              <a class=" modal-trigger black-text" href="#modal2">
+                <i class="material-icons">home</i>APOYO EN CASA</a>
+            </li>
+            <li class="tab col s4 l2">
+              <a class="black-text" href="#" onclick="timelinePost('crianza')">
+                <i class="material-icons">child_care </i> CRIANZA</a>
+            </li>
+            <li class="tab col s5 l2">
+              <a class="black-text" href="#" onclick="timelinePost('alimentación')">
+                <i class="material-icons">restaurant</i> ALIMENTACIÓN</a>
+            </li>
+            <li class="tab col s4 l2">
+              <a class="black-text" href="#" onclick="timelinePost('otros')">
+                <i class="material-icons">child_friendly</i> OTROS</a>
+            </li>
+          </ul>
         </div>
-      </li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li>
-        <a href="#!">
-          <i class="material-icons">photo_library</i>Fotos</a>
-      </li>
-      <li>
-        <a href="#!">
-          <i class="material-icons">group</i>Amigos</a>
-      </li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li>
-        <a class="subheader">
-          <i class="material-icons">settings</i>Configuración</a>
-      </li>
-      <li>
-        <a class="waves-effect" id="btn-logout">
-          <i class="material-icons">power_settings_new</i>Cerrar Sesión</a>
-      </li>
-    </ul>
-  </div>
-<div class="col s12 m8 push-m2 l8 push-l3">
-  <section class="timeline-body">
-    <div class=" col l10 push-l1 input-field">
-      <div class="col s12 l10">
-      <i class="material-icons prefix icon-user">account_circle</i>
-      <div class="container-text">
-        <textarea class="materialize-textarea" placeholder="Comparte o pregunta..." id="post-action"></textarea>
-      </div>
-    </div>
-      <div class="col s12 l2">
-      <a class="waves-effect waves-light btn-small black" id="btn-publish">Publicar</a>
-      <select class="browser-default right" id="select-state">
-        <!-- <option value="" disabled selected>Privacidad</option> -->
-        <option value="Publico">Público</option>
-        <option value="Privado">Privado</option>
-      </select>
-      <select class="browser-default right" id="select-category">
-          <option value="" disabled selected>Categoría</option>
-          <option value="salud">SALUD</option>
-          <option value="educación">EDUCACIÓN</option>
-          <option value="apoyo">APOYO EN CASA</option>
-          <option value="educación">EDUCACIÓN</option>
-          <option value="alimentación">ALIMENTACIÓN</option>
-          <option value="otros">OTROS</option>
-        </select>
-    </div>
-    </div>
-    <div class= "col s12 l9 push-l2"id="post-container">
-    </div>
-      <div id="modaledit" class="modal">
+      </nav>
+      <div id="modal1" class="modal">
         <div class="modal-content">
-          <div class="input-field">
-            <i class="material-icons prefix icon-user">account_circle</i>
-            <div class="container-text">
-              <textarea id="edit-text" class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
-            </div>
-          </div>
+          <h5>Para tener en cuenta...</h5>
+          <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
         </div>
         <div class="modal-footer">
-          <select class="browser-default" id="edit-state">
-            <option value="" disabled selected>Privacidad</option>
-            <option value="Publico">Público</option>
-            <option value="Privado">Privado</option>
-          </select>
-          <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="timelinePost('salud')">OK</a>
         </div>
       </div>
-      <div id="modaldelete" class="modal">
+
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <h5>Para tener en cuenta...</h5>
+          <ol>
+            <li class="black-text">En caso de recomendaciones de personal, debes recomendar únicamente a empleadas y nanas que conozcas, que hayan
+              trabajado contigo o con amigxs o familiares.</li>
+            <li class="black-text">Ninguna agencia de empleos, ni personas que colocan personal está permitida, en caso las identifiquen por favor
+              reportarlas.
+            </li>
+          </ol>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="timelinePost('apoyo')">OK</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <ul id="mobile-demo" class="sidenav sidenav-fixed">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <!-- <img src=""> -->
+            </div>
+            <div>
+              <!-- <a href="#user"> -->
+              <img class="circle user-pic" id="user-pic">
+              <!-- </a> -->
+            </div>
+            <div>
+              <a href="#name">
+                <span class="black-text name" id="user-name"></span>
+              </a>
+              <a href="#email">
+                <span class="black-text email" id="user-email"></span>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a id="my-posts" href="#post-container">
+            <i class="material-icons">photo_library</i>Fotos</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">group</i>Amigos</a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a class="subheader">
+            <i class="material-icons">settings</i>Configuración</a>
+        </li>
+        <li>
+          <a class="waves-effect" id="btn-logout">
+            <i class="material-icons">power_settings_new</i>Cerrar Sesión</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col s12 m8 push-m2 l8 push-l3">
+      <section class="timeline-body">
+        <div class=" col l10 push-l1 input-field">
+          <div class="col s12 l10">
+            <i class="material-icons prefix icon-user">account_circle</i>
+            <div class="container-text">
+              <textarea class="materialize-textarea" placeholder="Comparte o pregunta..." id="post-action"></textarea>
+            </div>
+          </div>
+          <div class="col s12 l2">
+            <a class="waves-effect waves-light btn-small black" id="btn-publish">Publicar</a>
+            <select class="browser-default right" id="select-state">
+              <option value="" disabled selected>Privacidad</option>
+              <option value="Publico">Público</option>
+              <option value="Privado">Privado</option>
+            </select>
+            <select class="browser-default right" id="select-category">
+              <option value="" disabled selected>Categoría</option>
+              <option value="salud">SALUD</option>
+              <option value="educación">EDUCACIÓN</option>
+              <option value="apoyo">APOYO EN CASA</option>
+              <option value="crianza">CRIANZA</option>
+              <option value="alimentación">ALIMENTACIÓN</option>
+              <option value="otros">OTROS</option>
+            </select>
+          </div>
+        </div>
+        <div class="col s12 l9 push-l2" id="post-container">
+        </div>
+        <div id="modaledit" class="modal">
           <div class="modal-content">
-              <h5>Eliminar Publicación</h5>
-              <p>Esta publicación será eliminada. Si sólo desea hacer algun cambio puede editar. </p>
+            <div class="input-field">
+              <i class="material-icons prefix icon-user">account_circle</i>
+              <div class="container-text">
+                <textarea id="edit-text" class="materialize-textarea validate" placeholder="Comparte o pregunta..." id="post-action"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <select class="browser-default" id="edit-state">
+              <option value="" disabled selected>Privacidad</option>
+              <option value="Publico">Público</option>
+              <option value="Privado">Privado</option>
+            </select>
+            <a href="#!" data-id="" data-value="" id="save-post" class="modal-close waves-effect waves-green btn-flat">Guardar</a>
+          </div>
+        </div>
+        <div id="modaldelete" class="modal">
+          <div class="modal-content">
+            <h5>¿Estás segurx que quieres eliminar esta publicación?</h5>
+            <p>Si sólo deseas hacer un cambio puedes editar.</p>
           </div>
           <div class="modal-footer">
             <a href="#!" data-id="" data-value="" id="btn-delete-post" class="modal-close waves-effect waves-green btn-flat">Eliminar</a>
             <a href="#!" data-id="" data-value="" id="btn-cancel-delete" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
           </div>
         </div>
-  </section>
-</div>
-</div>
+      </section>
+    </div>
+  </div>
   <div class="error-label">
     <p id="btn-login"></p>
     <p id="go-signup"></p>

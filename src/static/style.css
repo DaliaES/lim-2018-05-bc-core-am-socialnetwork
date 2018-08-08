@@ -2,6 +2,12 @@
 html, body{
   height: 100%;
 }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 .back-img{
   background-image:url("https://image.ibb.co/ct1Wio/fondo_log.png");
   background-repeat: no-repeat;
@@ -118,11 +124,13 @@ nav i.material-icons, nav i{
 }
 .tabs .indicator {
   background: #392613;
+
 } 
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: rgb(238, 142, 32);
-  color: black
+  color: black;
 }
+
 .error-label{
   display: none;
 }
@@ -159,7 +167,7 @@ color: #1a140d
 }
 .post-user{
   background-color: white;
-  height: 80px;
+  height: 130px;
 }
 .post-options a{
   margin-right: 5px;
@@ -174,12 +182,8 @@ color: #1a140d
   background-repeat: no-repeat;
   background-size: 100%;  
 }
-
-.button-link{
+.button-link,.button-link2 {
   cursor: pointer;
-}
-.button-link{
-  cursor: pointer
 }
 @media screen and (min-width:600px){
 .back-img{
