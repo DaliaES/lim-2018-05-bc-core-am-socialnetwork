@@ -139,7 +139,8 @@ const timelinePost = (category) => {
       }
     }) 
 }
-//  funcion para filtrar por categoria 
+//  funcion para filtrar por categoria en el html solo le cambias la funcion timelinePost()
+// por la funcion showByCategory
 // const showByCategory =(category)=>{
 //   const postRef = firebase.database().ref('posts/')
 //  postRef.orderByChild('postCategory').equalTo(category)
