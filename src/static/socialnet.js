@@ -92,6 +92,7 @@ const loginFacebook=()=>{
     .then(result => {
       window.location.href = 'main.html'
     }).catch(error => {
+      console.log(error.code,error.message)
       alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista')
     });
 }
@@ -105,14 +106,14 @@ const logout =()=>{
     });
 }
 // funcion para crear y editar post
-const createPost = (postText, State, id = 0, likeCount = 0) => {
+const createPost = (postText, State, id = 0) => {
   const user = firebase.auth().currentUser
   const postInfo = {
     id: user.uid,
     name: user.displayName,
     post: postText,
     postState: State,
-    likeCount: likeCount,
+    likeCount: 0,
   };
   if (!id) {
     id = firebase.database().ref().child('posts').push().key
@@ -122,6 +123,7 @@ const createPost = (postText, State, id = 0, likeCount = 0) => {
   sharePost['/posts/' + newPostKey] = postInfo;
   // sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
   return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
+  timelinePost()
 }
 // funcion para mostrar posts
 window.timelinePost = () => {
@@ -139,11 +141,31 @@ window.timelinePost = () => {
     }) 
 }
 // funcion para contar likes
-const counterLike = (postText,postState, id,likes) => {
-  let likeCount = parseInt(likes)
-  let totalLikes = likeCount + 1
-  createPost(postText, postState,id,totalLikes)
-
+// const counterLike = (likes) => {
+//   let dataLike = parseInt(likes)
+//   // let totalLikes = likeCount + 1  
+//     firebase.database().ref('posts')
+//     .on('value', function(snapshot) {
+//       snapshot.forEach(function(childSnapshot) {
+//         var childData = childSnapshot.val().likeCount;
+//         childData = dataLike +1
+//         console.log(childData)
+//       })})
+//   // createPost(postText, postState,id,totalLikes)
+ 
+// }
+const counterLike = (id)=>{
+  var postref =firebase.database().ref('posts'+id)
+    postref.child('likeCount').on('value', function(snapshot) {
+      // snapshot.forEach(function(childSnapshot) {
+        var childData = snapshot.val()?snapshot.val():0
+        // childData = dataLike +1
+        // console.log(childData)
+        postref.update({
+          likeCount:childData + 1
+        })
+      // })
+    })
 }
 // funcion para eliminar post
 const deletePost = (id) => {

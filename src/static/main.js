@@ -86,8 +86,8 @@ const createcontainerPost = (newPost) => {
 		for (elem of postLike) {
 			if (elem) {
 				elem.addEventListener('click', event => {
-					counterLike(event.target.dataset.value, event.target.dataset.poststate, event.target.dataset.id, event.target.dataset.link)
-					window.location.reload(true)
+					counterLike(event.target.dataset.id )
+					// window.location.reload(true)
 				})
 			}
 		}
@@ -167,7 +167,7 @@ const createcontainerPostPrivado = (newPost) => {
 		for (elem of postLike2) {
 			if (elem) {
 				elem.addEventListener('click', event => {
-					counterLike(event.target.dataset.value, event.target.dataset.poststate, event.target.dataset.id, event.target.dataset.link)
+					counterLike(event.target.dataset.link)
 					window.location.reload(true)
 				})
 			}
@@ -187,7 +187,17 @@ btnPublish.addEventListener('click', event => {
 		alert('Esta publicación no tiene contenido')
 	}
 })
+// btnPublish.addEventListener('click',()=>{
+//   firebase.database().ref('posts').on('value', function(snapshot) {
+//     snapshot.forEach(function(childSnapshot) {
+//       var childKey = childSnapshot.key;
+//       var childData = childSnapshot.val();
+//       console.log(childData.likeCount)
+//     })})
+// })
 // evento para funcion de privacidd
+// let valueState= selectState.value
+// selectState.addEventListener('change',console.log('hola'))
 
 // selectState.addEventListener('change', event=>{
 // 	statePost()
