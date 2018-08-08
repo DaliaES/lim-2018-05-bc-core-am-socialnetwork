@@ -35,13 +35,14 @@
         <form class="style-form">
           <div class=" section input-field ">
             <i class="material-icons prefix white-text ">email</i>
-            <input id="email-log" type="email" class=" white-text ">
+            <input id="email-log" type="email" class=" white-text validate">
+            <span class="helper-text" data-error="Ingrese un correo válido" data-success="right"></span>
             <label for="email-log" class="white-text">E-mail</label>
           </div>
           <div class=" section input-field ">
             <i class="material-icons prefix white-text">lock</i>
-            <input id="password-log" type="password" class=" white-text ">
-            <label for="password-logg" class="white-text">Contraseña</label>
+            <input id="password-log" type="password" class=" white-text validate" >
+            <label for="password-logg" class="white-text"  data-length="10">Contraseña</label>
           </div>
           <div class="btn-container">
             <a class="waves-effect waves-light btn-small btn-style" id="btn-login">Iniciar Sesión</a>

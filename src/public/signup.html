@@ -20,13 +20,9 @@
 <body class="back-img">
   <div class="row">
     <div class="col s0 m6 l8 description-tab">
-      <!-- <img src="https://preview.ibb.co/doWzMK/portada2.jpg" alt=""> -->
-      <!-- <div class="texto">
-          <p>Bienvenid@ a la red de padres más informada en Perú</p>
-          <p>Crianza</p>
-          <p>Alimentación</p>
-          <p>y más</p>
-        </div> -->
+        <div class="texto">
+            <h5>Datos - Experiencias - Tips</h5>
+          </div>
     </div>
     <div class="container-form col s10 push-s1 m6  l4">
       <div class="logo-desk col m8 push-m2">
@@ -36,17 +32,18 @@
         <form id="signup-form" class="style-form">
           <div class=" section input-field ">
             <i class="material-icons prefix white-text ">perm_identity</i>
-            <input id="id-name" type="text" class=" white-text ">
+            <input id="id-name" type="text" class=" white-text validate">
             <label for="id-name" class="white-text">Nombre</label>
           </div>
           <div class=" section input-field ">
-            <i class="material-icons prefix white-text ">email</i>
-            <input id="email-sign" type="email" class=" white-text ">
+            <i class="material-icons prefix white-text">email</i>
+            <input id="email-sign" type="email" class=" white-text validate ">
+            <span class="helper-text" data-error="Ingrese un correo válido" data-success="right"></span>
             <label for="email-sign" class="white-text">E-mail</label>
           </div>
           <div class=" section input-field ">
             <i class="material-icons prefix white-text">lock</i>
-            <input id="password-sign" type="password" class=" white-text ">
+            <input id="password-sign" type="password" data-length="10" class=" white-text validate">
             <label for="password-sign" class="white-text">Contraseña</label>
           </div>
           <div class="btn-container">

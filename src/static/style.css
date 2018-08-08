@@ -2,6 +2,12 @@
 html, body{
   height: 100%;
 }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 .back-img{
   background-image:url("https://image.ibb.co/ct1Wio/fondo_log.png");
   background-repeat: no-repeat;
@@ -161,7 +167,7 @@ color: #1a140d
 }
 .post-user{
   background-color: white;
-  height: 80px;
+  height: 130px;
 }
 .post-options a{
   margin-right: 5px;
