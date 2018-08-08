@@ -2,6 +2,12 @@
 html, body{
   height: 100%;
 }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
 .back-img{
   background-image:url("https://image.ibb.co/ct1Wio/fondo_log.png");
   background-repeat: no-repeat;
@@ -118,11 +124,13 @@ nav i.material-icons, nav i{
 }
 .tabs .indicator {
   background: #392613;
+
 } 
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: rgb(238, 142, 32);
-  color: black
+  color: black;
 }
+
 .error-label{
   display: none;
 }
