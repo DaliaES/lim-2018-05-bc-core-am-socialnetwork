@@ -142,7 +142,7 @@ CON INTERFACE IMPLEMENTADA
 
 > *Además persona que ya tenían experiencia tomando datos de personal de apoyo en casa, nos dijeron que es vital poner un aviso donde se informe que no está permitido empresas o personas que se dediquen a la colocación de personal ya que va en contra de lo que ellos buscan que es el boca a boca.*
 
-**Cómo nos aseguraremos que lxs usuarixs usen el producto?
+**Cómo nos aseguraremos que lxs usuarixs usen el producto?**
 
 A través del feedback constante luego de las interacciones de nuestrxs usuarixs.
 
