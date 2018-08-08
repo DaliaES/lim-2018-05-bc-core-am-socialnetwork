@@ -40,7 +40,7 @@
               <i class="material-icons">local_hospital</i> SALUD</a>
           </li>
           <li class="tab col s5 l2">
-            <a class="black-text" href="#">
+            <a class="black-text" href="#" onclick="timelinePost('educación')">
               <i class="material-icons tab-icon">school</i> EDUCACIÓN</a>
           </li>
           <li class="tab col s6 l2">
@@ -48,15 +48,15 @@
               <i class="material-icons">home</i>APOYO EN CASA</a>
           </li>
           <li class="tab col s4 l2">
-            <a class="black-text" href="#">
+            <a class="black-text" href="#" onclick="timelinePost('crianza')">
               <i class="material-icons">child_care </i> CRIANZA</a>
           </li>
           <li class="tab col s5 l2">
-            <a class="black-text" href="#">
+            <a class="black-text" href="#" onclick="timelinePost('alimentación')">
               <i class="material-icons">restaurant</i> ALIMENTACIÓN</a>
           </li>
           <li class="tab col s4 l2">
-            <a class="black-text" href="#">
+            <a class="black-text" href="#" onclick="timelinePost('otros')">
               <i class="material-icons">child_friendly</i> OTROS</a>
           </li>
         </ul>
@@ -68,7 +68,7 @@
         <p>Toda recomendación encontrada en esta categoría debe ser aprobada por tu médico de cabecera.</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="timelinePost('salud')">OK</a>
       </div>
     </div>
 
@@ -84,7 +84,7 @@
         </ol>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="timelinePost('apoyo')">OK</a>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@
       <div class="col s12 l2">
       <a class="waves-effect waves-light btn-small black" id="btn-publish">Publicar</a>
       <select class="browser-default right" id="select-state">
-        <!-- <option value="" disabled selected>Privacidad</option> -->
+        <option value="" disabled selected>Privacidad</option>
         <option value="Publico">Público</option>
         <option value="Privado">Privado</option>
       </select>
@@ -156,7 +156,7 @@
           <option value="salud">SALUD</option>
           <option value="educación">EDUCACIÓN</option>
           <option value="apoyo">APOYO EN CASA</option>
-          <option value="educación">EDUCACIÓN</option>
+          <option value="crianza">CRIANZA</option>
           <option value="alimentación">ALIMENTACIÓN</option>
           <option value="otros">OTROS</option>
         </select>

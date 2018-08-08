@@ -20,7 +20,7 @@ window.onload = () => {
         picProfile.style.backgroundImage = "url(https://image.ibb.co/h7ehKT/baseline_account_circle_black_48dp.png)";
       }
       addUserDataB(user.uid, user.displayName, user.email, user.photoURL)
-      timelinePost() 
+      //timelinePost()
     } else {
       console.log('no esta logueado')
     }
@@ -106,13 +106,14 @@ const logout =()=>{
     });
 }
 // funcion para crear y editar post
-const createPost = (postText, State, id = 0) => {
+const createPost = (postText, State, category, id = 0) => {
   const user = firebase.auth().currentUser
   const postInfo = {
     id: user.uid,
     name: user.displayName,
     post: postText,
     postState: State,
+    postCategory: category,
     likeCount: 0,
   };
   if (!id) {
@@ -123,18 +124,20 @@ const createPost = (postText, State, id = 0) => {
   sharePost['/posts/' + newPostKey] = postInfo;
   // sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
   return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
-  timelinePost()
+  //timelinePost()
 }
 // funcion para mostrar posts
-window.timelinePost = () => {
+const timelinePost = (category) => {
+  postContainer.innerHTML = ''
   const user = firebase.auth().currentUser
   console.log(user)
     firebase.database().ref('posts')
     .on('child_added', (createdPost) => {
-      if (user.uid=== createdPost.val().id){
+      //console.log(createdPost.val())
+      if (user.uid === createdPost.val().id && category === createdPost.val().postCategory){
         createcontainerPost(createdPost)
         createcontainerPostPrivado(createdPost)
-      }else if (user.uid !== createdPost.val().id) {
+      } else if (user.uid !== createdPost.val().id && category === createdPost.val().postCategory) {
         createcontainerPost(createdPost)
       }
 

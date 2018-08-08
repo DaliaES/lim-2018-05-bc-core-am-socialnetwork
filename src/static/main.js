@@ -177,10 +177,11 @@ const createcontainerPostPrivado = (newPost) => {
 const btnPublish = document.getElementById("btn-publish")
 const postArea = document.getElementById("post-action")
 const selectState = document.getElementById("select-state")
+const selectCategory = document.getElementById("select-category")
 // agregar evento a publicar post
 btnPublish.addEventListener('click', event => {
 	if (postArea.value !== '') {
-		createPost(postArea.value, selectState.value)
+		createPost(postArea.value, selectState.value, selectCategory.value)
 		window.location.reload = 'main.html'
 		postArea.value = ''
 	} else {
