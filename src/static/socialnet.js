@@ -123,7 +123,7 @@ const createPost = (postText, State, id = 0) => {
   sharePost['/posts/' + newPostKey] = postInfo;
   // sharePost['/user-posts/' + user.uid + '/' + newPostKey] = postInfo
   return firebase.database().ref().update(sharePost).then(console.log("se guardo exitosamente"));
-  timelinePost()
+  // timelinePost()
 }
 // funcion para mostrar posts
 window.timelinePost = () => {
@@ -154,18 +154,15 @@ window.timelinePost = () => {
 //   // createPost(postText, postState,id,totalLikes)
  
 // }
-const counterLike = (id)=>{
-  var postref =firebase.database().ref('posts'+id)
-    postref.child('likeCount').on('value', function(snapshot) {
-      // snapshot.forEach(function(childSnapshot) {
-        var childData = snapshot.val()?snapshot.val():0
-        // childData = dataLike +1
-        // console.log(childData)
-        postref.update({
-          likeCount:childData + 1
-        })
-      // })
-    })
+const counterLike = (postId)=>{
+ let postref = firebase.database().ref('posts/' + postId)
+ postref.transaction(function(post) {
+   console.log(post.likeCount)
+   if (post){
+    post.likeCount++;
+   }
+     return post  
+});
 }
 // funcion para eliminar post
 const deletePost = (id) => {
