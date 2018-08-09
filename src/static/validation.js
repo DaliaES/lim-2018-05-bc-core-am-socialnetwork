@@ -1,32 +1,30 @@
-
 window.validatesignForm = (name, email, pass) => {
-	const regEx = /\S+@\S+\.\S+/
+	const regEx = /\S+@\S+\.\S+/;
 	if (name !== '' & pass !== '' & email !== '') {
-		console.log(name)
-		return true
+		return true;
 	} else {
-		alert('Por favor Ingrese sus Datos Completos')
+		alert('Por favor Ingrese sus Datos Completos');
 	}
 	if (regEx.test(email)) {
-		return true
+		return true;
 	}
 	if (pass.length >= 6) {
-		return true
+		return true;
 	}
-	return false
+	return false;
 }
 window.validateloginForm = (email, pass) => {
-	const regEx = /\S+@\S+\.\S+/
+	const regEx = /\S+@\S+\.\S+/;
 	if (pass !== '' & email !== '') {
-		return true
+		return true;
 	} else {
-		alert('Por favor Ingrese sus datos de registro correcto')
+		alert('Por favor Ingrese sus datos de registro correcto');
 	}
 	if (regEx.test(email)) {
-		return true
+		return true;
 	}
 	if (pass.length >= 6) {
-		return true
+		return true;
 	}
-	return false
+	return false;
 }
