@@ -82,7 +82,6 @@ const loginFacebook = () => {
     .then(result => {
       window.location.href = 'main.html';
     }).catch(error => {
-      console.log(error.code, error.message);
       alert('Hubo un error al loguearse, puede que esta cuenta ya este registrada o no exista');
     });
 }
@@ -139,7 +138,6 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id);
   post.remove()
 }
-
 const updatePost = (postId, post, postState) => {
   let postref = firebase.database().ref('posts/' + postId);
   postref.transaction(function (objectPost) {
