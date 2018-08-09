@@ -138,7 +138,6 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id);
   post.remove()
 }
-
 const updatePost = (postId, post, postState) => {
   let postref = firebase.database().ref('posts/' + postId);
   postref.transaction(function (objectPost) {
