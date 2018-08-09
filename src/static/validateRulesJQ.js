@@ -5,20 +5,20 @@ rules:{
 		required:true,
 		email:true
 	},
-	// password:{
-	// 	required:true,
-	// 	minlenght: 6,
-	// }
+	password:{
+		required:true,
+		minlength: 6,
+	}
 },
 messages:{
 	email:{
 		required:'Escribe un email',
 		email:'Este email no es válido'
 	},
-	// password:{
-	// 	required:'Escribe una contraseña',
-	// 	minlenght:'Por favor ingrese al menos 6 carácteres'
-	// }
+	password:{
+		required:'Escribe una contraseña',
+		minlength:'Ingresa al menos 6 caracteres'
+	}
 }
 })
 $('#signup-form').validate({
@@ -30,10 +30,10 @@ rules:{
 		required:true,
 		email:true
 	},
-	// password:{
-	// 	required:true,
-	// 	minlength:6
-	// }
+	password:{
+		required:true,
+		minlength:6
+	}
 },
 messages:{
 	name: {
@@ -43,10 +43,10 @@ messages:{
 		required:'Escribe un email',
 		email:'Este email no es válido'
 	},
-	// password:{
-	// 	required:'Escribe una contraseña',
-	// 	minlenght:'Por favor ingrese al menos 6 caracteres'
-	// }
+	password:{
+		required:'Escribe una contraseña',
+		minlength:'Ingresa al menos 6 caracteres'
+	}
 }
 })
 })

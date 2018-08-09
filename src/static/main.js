@@ -181,18 +181,11 @@ btnPublish.addEventListener('click', event => {
 })
 // agregar evento a boton guardar despues de editar post
 const saveButton = document.getElementById("save-post")
-
 saveButton.addEventListener('click', event => {
 	const editInput = document.getElementById("edit-text")
 	let editSelect = document.getElementById("edit-state")
-	// const postRef = firebase.database.ref('posts/')
-	//  postRef.orderByChild('postCategory').equalTo(category)
-	//  .on('child_added', (post) => {
-
-		updatePos(event.target.dataset.id,editInput.value,editSelect.value)
+		updatePost(event.target.dataset.id,editInput.value,editSelect.value)
 		window.location.reload(true);
-	//  })
-
 })
 // agregar evento a eliminar post
 const deletePostButton = document.getElementById("btn-delete-post")

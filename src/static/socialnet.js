@@ -101,7 +101,7 @@ const logout =()=>{
     });
 }
 // funcion para crear y editar post
-const createPost = (postText, State, category, id = 0) => {
+const createPost = (postText, State, category=0, id = 0) => {
   const user = firebase.auth().currentUser
   const postInfo = {
     id: user.uid,
@@ -110,14 +110,12 @@ const createPost = (postText, State, category, id = 0) => {
     postState: State,
     postCategory: category,
     likeCount: 0,
-  };
-  if (!id) {
-    id = database.ref().child('posts').push().key
-  }
-  const newPostKey = id;
+};
+newPostKey= database.ref().child('posts').push().key
   let sharePost = {};
   sharePost['/posts/' + newPostKey] = postInfo;
   return database.ref().update(sharePost)
+  
 }
 // funcion para mostrar posts
 const timelinePost = (category) => {
@@ -150,16 +148,15 @@ const deletePost = (id) => {
   post.remove()
 }
 
-const updatePos = (postId,post,postState)=>{
+const updatePost = (postId,post,postState)=>{
   let postref = firebase.database().ref('posts/' + postId)
-  postref.transaction(function(jobs) {
-    
-    if (jobs){
-      jobs.post =post 
-      jobs.postState =  postState
+  postref.transaction(function(objectPost) {
+    if (objectPost){
+      objectPost.post =post 
+      objectPost.postState =  postState
     }
-    console.log(jobs)
-      return jobs  
+    console.log(objectPost)
+      return objectPost  
  });
  }
  
