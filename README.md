@@ -9,6 +9,8 @@
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/stadyoutube.jpg" alt="stadyoutube" border="0"></p>
 
+**Benchmarking**
+
 *Actualmente, esta necesidad se resuelve también mediante foros de ayuda, blogs de maternidad/paternidad y clubs de padres, todo esto desde Facebook, la red social más consumida en el mundo. En Perú encontramos comunidades como "Bloguerhood, Mamás blogueras peruanas, Househelp-datos para compartir, Buscando empleadas y nanas de confianza Perú", entre otros*
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/househelp.png" alt="househelp" border="0"></p>
@@ -54,6 +56,21 @@
    * cómo se le castiga a un niño de 5 años? 
 
 <p align = "center"><img src="https://github.com/AilimMoscoso/lim-2018-05-bc-core-am-socialnetwork/blob/master/img/categorys.jpg" alt="categorys" border="0"></p>     
+
+**Elementos básicos de una red social**
+- Login
+- Registro
+- Muro
+- Buscador de amigos
+- Likes
+
+**Principales Funcionalidades**
+- Ingreso de posts 
+- Posts con opción de privacidad: Privado y público
+- Posts con filtro de categoría: Salud, Educación, Crianza, Apoyo en casa y Otros
+- Likes
+- Edición de posts
+- Eliminación de posts
 
 ## Acerca de los usuarixs 🤰🤱👫👬👭
 
@@ -125,6 +142,9 @@ CON INTERFACE IMPLEMENTADA
 
 > *Además persona que ya tenían experiencia tomando datos de personal de apoyo en casa, nos dijeron que es vital poner un aviso donde se informe que no está permitido empresas o personas que se dediquen a la colocación de personal ya que va en contra de lo que ellos buscan que es el boca a boca.*
 
+**Cómo nos aseguraremos que lxs usuarixs usen el producto?**
+
+A través del feedback constante luego de las interacciones de nuestrxs usuarixs.
 
 ## Organización del equipo de trabajo ↗
 
