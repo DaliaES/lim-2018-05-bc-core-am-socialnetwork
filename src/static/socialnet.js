@@ -36,20 +36,9 @@ let addUserDataB = (id, name, email, photo) => {
   });
   return addedUser
 }
-// funcion de logueo
-const Login =()=>{
-  const email = document.getElementById("email-log").value;
-  const pass = document.getElementById("password-log").value;
-  firebase.auth().signInWithEmailAndPassword(email, pass)
-    .then(result => window.location.href = 'main.html')
-    .catch(e => alert('No Iniciaste sesion correctamente o este usuario no existe'))
-}
 // funcion de registro
-const registro =()=>{
-  const email = document.getElementById("email-sign").value;
-  const pass = document.getElementById("password-sign").value;
-  const name = document.getElementById("id-name").value;
-  firebase.auth().createUserWithEmailAndPassword(email, pass)
+const registro =(name,email,password)=>{
+  firebase.auth().createUserWithEmailAndPassword(email, password)
     .then(firebaseUser => {
       const user = firebase.auth().currentUser
       if (user) {
@@ -59,7 +48,7 @@ const registro =()=>{
         emailVerification()
       }
     })
-    .catch(e => alert('No se registro correctamente'));
+    .catch(e => console.log('no se registro correctamente'));
 }
 // funcion para enviar email de verificacion
 window.emailVerification = () => {
@@ -71,6 +60,12 @@ window.emailVerification = () => {
     .catch(error => {
       console.log('hay un error')
     })
+}
+// funcion de logueo
+const Login =(email,password)=>{
+  firebase.auth().signInWithEmailAndPassword(email, password)
+    .then(result => window.location.href = 'main.html')
+    .catch(e => alert('No Iniciaste sesion correctamente o este usuario no existe'))
 }
 // funcion para logueo con google
 const googleLogin =()=>{
@@ -117,12 +112,12 @@ const createPost = (postText, State, category, id = 0) => {
     likeCount: 0,
   };
   if (!id) {
-    id = firebase.database().ref().child('posts').push().key
+    id = database.ref().child('posts').push().key
   }
   const newPostKey = id;
   let sharePost = {};
   sharePost['/posts/' + newPostKey] = postInfo;
-  return firebase.database().ref().update(sharePost)
+  return database.ref().update(sharePost)
 }
 // funcion para mostrar posts
 const timelinePost = (category) => {
@@ -139,15 +134,6 @@ const timelinePost = (category) => {
       }
     }) 
 }
-//  funcion para filtrar por categoria en el html solo le cambias la funcion timelinePost()
-// por la funcion showByCategory
-// const showByCategory =(category)=>{
-//   const postRef = firebase.database().ref('posts/')
-//  postRef.orderByChild('postCategory').equalTo(category)
-//   .on('child_added', (post) => {
-//  createcontainerPost(post) + createcontainerPostPrivado(post) 
-//   })
-// }
 const counterLike = (postId)=>{
  let postref = firebase.database().ref('posts/' + postId)
  postref.transaction(function(post) {
@@ -163,3 +149,17 @@ const deletePost = (id) => {
   const post = firebase.database().ref('posts/' + id)
   post.remove()
 }
+
+const updatePos = (postId,post,postState)=>{
+  let postref = firebase.database().ref('posts/' + postId)
+  postref.transaction(function(jobs) {
+    
+    if (jobs){
+      jobs.post =post 
+      jobs.postState =  postState
+    }
+    console.log(jobs)
+      return jobs  
+ });
+ }
+ 

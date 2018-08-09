@@ -23,6 +23,11 @@ form .input-field label,form .input-field input{
   letter-spacing: 0.08em;
   font-size: 16px;
 }
+label.error{
+  color:red;
+  font-size:8px;
+  padding-top: 45px
+}
 .btn-style{
   color: #1a140d;
   font-weight: bolder;

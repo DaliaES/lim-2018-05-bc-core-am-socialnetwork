@@ -15,14 +15,16 @@
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-database.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="../static/validateRulesJQ.js"></script>
 </head>
 
 <body class="back-img">
   <div class="row">
     <div class="col s0 m6 l8 description-tab">
-        <div class="texto">
-            <h5>Datos - Experiencias - Tips</h5>
-          </div>
+      <div class="texto">
+        <h5>Datos - Experiencias - Tips</h5>
+      </div>
     </div>
     <div class="container-form col s10 push-s1 m6  l4">
       <div class="logo-desk col m8 push-m2">
@@ -32,18 +34,17 @@
         <form id="signup-form" class="style-form">
           <div class=" section input-field ">
             <i class="material-icons prefix white-text ">perm_identity</i>
-            <input id="id-name" type="text" class=" white-text validate">
+            <input id="id-name" name="name" type="text" class=" white-text " required>
             <label for="id-name" class="white-text">Nombre</label>
           </div>
           <div class=" section input-field ">
             <i class="material-icons prefix white-text">email</i>
-            <input id="email-sign" type="email" class=" white-text validate ">
-            <span class="helper-text" data-error="Ingrese un correo válido" data-success="right"></span>
+            <input id="email-sign" name="email" type="email" class=" white-text" required>
             <label for="email-sign" class="white-text">E-mail</label>
           </div>
           <div class=" section input-field ">
             <i class="material-icons prefix white-text">lock</i>
-            <input id="password-sign" type="password" data-length="10" class=" white-text validate">
+            <input id="password-sign" minlength="6" name="password" type="password" class=" white-text" required>
             <label for="password-sign" class="white-text">Contraseña</label>
           </div>
           <div class="btn-container">
@@ -62,11 +63,18 @@
     <p id="btn-publish"></p>
     <p id="save-post"></p>
     <p id="post-container"></p>
+    <p id="user-name"></p>
+    <p id="user-email"></p>
+    <p id="user-pic"></p>
+    <p id="btn-delete-post"></p>
   </div>
   <script src="../static/firebase.js"></script>
   <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
   <script type="text/javascript" src="../static/framework/js/materialize.min.js"></script>
   <script src="../static/socialnet.js"></script>
+  <script src="../static/validation.js"></script>
   <script src="../static/main.js"></script>
 </body>
 

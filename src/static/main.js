@@ -3,8 +3,15 @@ const btnLogin = document.getElementById("btn-login");
 const btnGoogle = document.getElementById("btn-google");
 const btnSignUp = document.getElementById("btn-signup");
 // agregar evento a boton de registro
+
 btnSignUp.addEventListener('click', e => {
-	registro()
+	const name = document.getElementById("id-name").value;
+	const email = document.getElementById("email-sign").value;
+	const pass = document.getElementById("password-sign").value;
+	console.log()
+	if (validatesignForm(name,email,pass) === true){
+		registro(name,email,pass)
+	}
 })
 // agregar evento para redireccionar a form de registro
 signUpForm.addEventListener('click', e => window.location.href = 'signup.html')
@@ -19,7 +26,12 @@ const ShowMsgVerification = () => {
 }
 // agregar evento de login
 btnLogin.addEventListener('click', e => {
-	Login()
+	const email = document.getElementById("email-log").value;
+	const pass = document.getElementById("password-log").value;
+	console.log(pass)
+	if ( validateloginForm(email,pass) === true){
+	Login(email,pass)
+	}
 });
 // agregando evento boton google
 btnGoogle.addEventListener('click', e => {
@@ -173,8 +185,14 @@ const saveButton = document.getElementById("save-post")
 saveButton.addEventListener('click', event => {
 	const editInput = document.getElementById("edit-text")
 	let editSelect = document.getElementById("edit-state")
-	createPost(editInput.value, editSelect.value, event.target.dataset.id)
-	window.location.reload(true);
+	// const postRef = firebase.database.ref('posts/')
+	//  postRef.orderByChild('postCategory').equalTo(category)
+	//  .on('child_added', (post) => {
+
+		updatePos(event.target.dataset.id,editInput.value,editSelect.value)
+		window.location.reload(true);
+	//  })
+
 })
 // agregar evento a eliminar post
 const deletePostButton = document.getElementById("btn-delete-post")
