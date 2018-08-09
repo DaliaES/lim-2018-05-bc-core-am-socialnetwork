@@ -26,7 +26,7 @@ form .input-field label,form .input-field input{
 label.error{
   color:red;
   font-size:8px;
-  padding-top: 45px
+  padding-top: 45px;
 }
 .btn-style{
   color: #1a140d;
@@ -159,7 +159,7 @@ textarea.materialize-textarea {
 select{
   background-color: transparent;
   width: 100px;
-  border: 0px
+  border: 0px;
 }
 .user-name-post {
   margin-bottom: 15px;
@@ -209,7 +209,7 @@ color: #1a140d
   min-height:100vh !important;
 }
 .row{
-  margin-bottom: 0px
+  margin-bottom: 0px;
 } 
  .texto{
    float: right;
@@ -220,7 +220,6 @@ color: #1a140d
    font-weight: bold;
    opacity: 0.6;
    border-radius: 15%;
-   /* padding: 0.2em 0.2em; */
    text-align: center;
    margin-top: 540px;
    margin-right: 270px;
@@ -241,7 +240,7 @@ form .input-field label.white-text,form .input-field input.white-text, form p.wh
   margin-top:5%;
  }
 .logo{
- width: 17%
+ width: 17%;
  }
 }
 @media screen and (min-width:600px){

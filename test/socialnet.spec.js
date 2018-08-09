@@ -1,4 +1,4 @@
-describe('socialnet', () => {
+describe('validation', () => {
 
     it ('deberia',()=>{
         
